@@ -1,3 +1,4 @@
 #!/bin/sh
-git -C araujo.compras.api/ pull
-git -C araujo.compras.web/ pull
+git -C /c/DTI/Araujo/araujo.compras.api/ pull
+git -C /c/DTI/Araujo/araujo.compras.web/ pull
+read -p 'Press [Enter] key to finish'
