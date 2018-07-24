@@ -1,10 +1,20 @@
 from pywinauto.application import Application
-import os
+import time
 
 app = Application().connect(path=r"C:\Program Files\Palo Alto Networks\GlobalProtect\PanGPA.exe")
-hostname = "172.16.220.201"	
-while True:
-    response = os.system("ping " + hostname)
-    if response != 0:
-        app.GlobalProtect.Connect.click()
-        print ('Connecting!')
+#app.GlobalProtect.PrintControlIdentifiers()
+#while True:
+#time.sleep(1)
+#status = app.Static2.WindowText()
+#    if response != "Not Connected" or response != "Disconnected":
+#        app.GlobalProtect.Connect.click()
+#        print ('Connecting!')
+
+status = app.Connect.PrintControlIdentifies()
+print(status)
+    #if status != "Connected" or status != "Connecting":
+#        app.GlobalProtect.Connect.click()
+    #    print ('Connecting!')
+    #else: 
+    #    print ('Connected!')
+
