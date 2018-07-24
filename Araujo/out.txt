@@ -1,0 +1,1753 @@
+Control Identifiers:
+
+Dialog - 'GlobalProtect'    (L-32000, T-32000, R-31840, B-31972)
+['GlobalProtect', 'Dialog', 'GlobalProtectDialog']
+child_window(title="GlobalProtect", class_name="#32770")
+   | 
+   | TabControl - ''    (L-32000, T-32000, R-32000, B-32000)
+   | ['', 'TabControl']
+   | child_window(class_name="SysTabControl32")
+   |    | 
+   |    | #32770 - ''    (L-31997, T-31965, R-31997, B-31965)
+   |    | ['GlobalProtect#32770', '#32770', 'GlobalProtect#327700', 'GlobalProtect#327701', '#327700', '#327701']
+   |    | child_window(class_name="#32770")
+   |    |    | 
+   |    |    | Static - 'Status: '    (L-31970, T-31942, R-31931, B-31929)
+   |    |    | ['Status: ', 'Status: Static', 'Static', 'Static0', 'Static1']
+   |    |    | child_window(title="Status: ", class_name="Static")
+   |    |    | 
+   |    |    | Static - 'Not Connected'    (L-31925, T-31942, R-31827, B-31924)
+   |    |    | ['Not Connected', 'Not ConnectedStatic', 'Static2', 'Not Connected0', 'Not Connected1', 'Not ConnectedStatic0', 'Not ConnectedStatic1']
+   |    |    | child_window(title="Not Connected", class_name="Static")
+   |    |    | 
+   |    |    | Button - 'Connect'    (L-31815, T-31942, R-31740, B-31922)
+   |    |    | ['Button', 'Connect', 'ConnectButton', 'Button0', 'Button1', 'Connect0', 'Connect1', 'ConnectButton0', 'ConnectButton1']
+   |    |    | child_window(title="Connect", class_name="Button")
+   |    |    | 
+   |    |    | CheckBox - 'Enable'    (L-31730, T-31939, R-31674, B-31923)
+   |    |    | ['CheckBox', 'EnableCheckBox', 'Enable']
+   |    |    | child_window(title="Enable", class_name="Button")
+   |    |    | 
+   |    |    | GroupBox - 'Warnings/Errors'    (L-31986, T-31915, R-31986, B-31915)
+   |    |    | ['GroupBox', 'Warnings/Errors', 'Warnings/ErrorsGroupBox', 'GroupBox0', 'GroupBox1', 'Warnings/Errors0', 'Warnings/Errors1', 'Warnings/ErrorsGroupBox0', 'Warnings/ErrorsGroupBox1']
+   |    |    | child_window(title="Warnings/Errors", class_name="Button")
+   |    |    | 
+   |    |    | Edit - 'OnDemand mode.'    (L-31976, T-31895, R-31976, B-31895)
+   |    |    | ['Edit', 'XEdit', 'Edit0', 'Edit1']
+   |    |    | child_window(title="OnDemand mode.", class_name="Edit")
+   |    |    | 
+   |    |    | Static - ''    (L-31976, T-32027, R-31976, B-31983)
+   |    |    | ['GlobalProtectStatic', 'Static3']
+   |    |    | child_window(class_name="Static")
+   |    | 
+   |    | Static - 'Status: '    (L-31970, T-31942, R-31931, B-31929)
+   |    | ['Status: ', 'Status: Static', 'Static', 'Static0', 'Static1']
+   |    | child_window(title="Status: ", class_name="Static")
+   |    | 
+   |    | Static - 'Not Connected'    (L-31925, T-31942, R-31827, B-31924)
+   |    | ['Not Connected', 'Not ConnectedStatic', 'Static2', 'Not Connected0', 'Not Connected1', 'Not ConnectedStatic0', 'Not ConnectedStatic1']
+   |    | child_window(title="Not Connected", class_name="Static")
+   |    | 
+   |    | Button - 'Connect'    (L-31815, T-31942, R-31740, B-31922)
+   |    | ['Button', 'Connect', 'ConnectButton', 'Button0', 'Button1', 'Connect0', 'Connect1', 'ConnectButton0', 'ConnectButton1']
+   |    | child_window(title="Connect", class_name="Button")
+   |    | 
+   |    | CheckBox - 'Enable'    (L-31730, T-31939, R-31674, B-31923)
+   |    | ['CheckBox', 'EnableCheckBox', 'Enable']
+   |    | child_window(title="Enable", class_name="Button")
+   |    | 
+   |    | GroupBox - 'Warnings/Errors'    (L-31986, T-31915, R-31986, B-31915)
+   |    | ['GroupBox', 'Warnings/Errors', 'Warnings/ErrorsGroupBox', 'GroupBox0', 'GroupBox1', 'Warnings/Errors0', 'Warnings/Errors1', 'Warnings/ErrorsGroupBox0', 'Warnings/ErrorsGroupBox1']
+   |    | child_window(title="Warnings/Errors", class_name="Button")
+   |    | 
+   |    | Edit - 'OnDemand mode.'    (L-31976, T-31895, R-31976, B-31895)
+   |    | ['Edit', 'XEdit', 'Edit0', 'Edit1']
+   |    | child_window(title="OnDemand mode.", class_name="Edit")
+   |    | 
+   |    | Static - ''    (L-31976, T-32027, R-31976, B-31983)
+   |    | ['GlobalProtectStatic', 'Static3']
+   |    | child_window(class_name="Static")
+   |    | 
+   |    | #32770 - ''    (L-31997, T-31965, R-31997, B-31965)
+   |    | ['GlobalProtect#327702', '#327702']
+   |    | child_window(class_name="#32770")
+   |    |    | 
+   |    |    | Edit - 'araujovpn.araujo.com.br'    (L-31928, T-31897, R-31712, B-31877)
+   |    |    | ['Edit2', 'PortalEdit', 'PortalEdit0', 'PortalEdit1']
+   |    |    | child_window(title="araujovpn.araujo.com.br", class_name="Edit")
+   |    |    | 
+   |    |    | Button - 'Connect'    (L-31928, T-31867, R-31845, B-31847)
+   |    |    | ['Button2', 'Connect2', 'ConnectButton2']
+   |    |    | child_window(title="Connect", class_name="Button")
+   |    |    | 
+   |    |    | Static - 'Not Connected'    (L-31934, T-31819, R-31641, B-31803)
+   |    |    | ['Not Connected2', 'Not ConnectedStatic2', 'Static4']
+   |    |    | child_window(title="Not Connected", class_name="Static")
+   |    |    | 
+   |    |    | Static - ''    (L-31976, T-31780, R-31976, B-31780)
+   |    |    | ['Status:Static', 'Static5', 'Status:Static0', 'Status:Static1']
+   |    |    | child_window(class_name="Static")
+   |    |    | 
+   |    |    | Static - ''    (L-31961, T-31941, R-31949, B-31928)
+   |    |    | ['XStatic', 'Static6']
+   |    |    | child_window(class_name="Static")
+   |    |    | 
+   |    |    | Static - 'Portal'    (L-31928, T-31916, R-31898, B-31903)
+   |    |    | ['PortalStatic', 'Portal', 'Static7', 'PortalStatic0', 'PortalStatic1']
+   |    |    | child_window(title="Portal", class_name="Static")
+   |    |    | 
+   |    |    | GroupBox - 'Warnings/Errors'    (L-31986, T-31798, R-31986, B-31798)
+   |    |    | ['GroupBox2', 'Warnings/Errors2', 'Warnings/ErrorsGroupBox2']
+   |    |    | child_window(title="Warnings/Errors", class_name="Button")
+   |    |    | 
+   |    |    | GroupBox - ''    (L-31986, T-31954, R-31986, B-31829)
+   |    |    | ['GlobalProtectGroupBox', 'GroupBox3']
+   |    |    | child_window(class_name="Button")
+   |    |    | 
+   |    |    | Static - 'Status:'    (L-31977, T-31819, R-31941, B-31806)
+   |    |    | ['Status:Static2', 'Status:', 'Static8', 'Status:0', 'Status:1']
+   |    |    | child_window(title="Status:", class_name="Static")
+   |    |    | 
+   |    |    | Static - ''    (L-31974, T-31739, R-31974, B-31739)
+   |    |    | ['Status:Static3', 'OnDemand mode.Static', 'Static9', 'OnDemand mode.Static0', 'OnDemand mode.Static1']
+   |    |    | child_window(class_name="Static")
+   |    |    | 
+   |    |    | Static - 'OnDemand mode.'    (L-31976, T-31760, R-31976, B-31760)
+   |    |    | ['OnDemand mode.', 'OnDemand mode.Static2', 'Static10']
+   |    |    | child_window(title="OnDemand mode.", class_name="Static")
+   |    |    | 
+   |    |    | Static - 'vpn_dti_dht'    (L-32349, T-31941, R-32040, B-31923)
+   |    |    | ['vpn_dti_dhtStatic', 'vpn_dti_dht', 'Static11']
+   |    |    | child_window(title="vpn_dti_dht", class_name="Static")
+   |    |    | 
+   |    |    | Button - 'X'    (L-32034, T-31944, R-32018, B-31928)
+   |    |    | ['X', 'Button3', 'XButton']
+   |    |    | child_window(title="X", class_name="Button")
+   |    | 
+   |    | Edit - 'araujovpn.araujo.com.br'    (L-31928, T-31897, R-31712, B-31877)
+   |    | ['Edit2', 'PortalEdit', 'PortalEdit0', 'PortalEdit1']
+   |    | child_window(title="araujovpn.araujo.com.br", class_name="Edit")
+   |    | 
+   |    | Button - 'Connect'    (L-31928, T-31867, R-31845, B-31847)
+   |    | ['Button2', 'Connect2', 'ConnectButton2']
+   |    | child_window(title="Connect", class_name="Button")
+   |    | 
+   |    | Static - 'Not Connected'    (L-31934, T-31819, R-31641, B-31803)
+   |    | ['Not Connected2', 'Not ConnectedStatic2', 'Static4']
+   |    | child_window(title="Not Connected", class_name="Static")
+   |    | 
+   |    | Static - ''    (L-31976, T-31780, R-31976, B-31780)
+   |    | ['Status:Static', 'Static5', 'Status:Static0', 'Status:Static1']
+   |    | child_window(class_name="Static")
+   |    | 
+   |    | Static - ''    (L-31961, T-31941, R-31949, B-31928)
+   |    | ['XStatic', 'Static6']
+   |    | child_window(class_name="Static")
+   |    | 
+   |    | Static - 'Portal'    (L-31928, T-31916, R-31898, B-31903)
+   |    | ['PortalStatic', 'Portal', 'Static7', 'PortalStatic0', 'PortalStatic1']
+   |    | child_window(title="Portal", class_name="Static")
+   |    | 
+   |    | GroupBox - 'Warnings/Errors'    (L-31986, T-31798, R-31986, B-31798)
+   |    | ['GroupBox2', 'Warnings/Errors2', 'Warnings/ErrorsGroupBox2']
+   |    | child_window(title="Warnings/Errors", class_name="Button")
+   |    | 
+   |    | GroupBox - ''    (L-31986, T-31954, R-31986, B-31829)
+   |    | ['GlobalProtectGroupBox', 'GroupBox3']
+   |    | child_window(class_name="Button")
+   |    | 
+   |    | Static - 'Status:'    (L-31977, T-31819, R-31941, B-31806)
+   |    | ['Status:Static2', 'Status:', 'Static8', 'Status:0', 'Status:1']
+   |    | child_window(title="Status:", class_name="Static")
+   |    | 
+   |    | Static - ''    (L-31974, T-31739, R-31974, B-31739)
+   |    | ['Status:Static3', 'OnDemand mode.Static', 'Static9', 'OnDemand mode.Static0', 'OnDemand mode.Static1']
+   |    | child_window(class_name="Static")
+   |    | 
+   |    | Static - 'OnDemand mode.'    (L-31976, T-31760, R-31976, B-31760)
+   |    | ['OnDemand mode.', 'OnDemand mode.Static2', 'Static10']
+   |    | child_window(title="OnDemand mode.", class_name="Static")
+   |    | 
+   |    | Static - 'vpn_dti_dht'    (L-32349, T-31941, R-32040, B-31923)
+   |    | ['vpn_dti_dhtStatic', 'vpn_dti_dht', 'Static11']
+   |    | child_window(title="vpn_dti_dht", class_name="Static")
+   |    | 
+   |    | Button - 'X'    (L-32034, T-31944, R-32018, B-31928)
+   |    | ['X', 'Button3', 'XButton']
+   |    | child_window(title="X", class_name="Button")
+   |    | 
+   |    | #32770 - ''    (L-31997, T-31965, R-31997, B-31965)
+   |    | ['GlobalProtect#327703', '#327703']
+   |    | child_window(class_name="#32770")
+   |    |    | 
+   |    |    | Static - 'Status:'    (L-31703, T-31877, R-31665, B-31864)
+   |    |    | ['Status:Static4', 'Status:2', 'Static12']
+   |    |    | child_window(title="Status:", class_name="Static")
+   |    |    | 
+   |    |    | Static - ''    (L-31662, T-31877, R-31557, B-31864)
+   |    |    | ['ConnectStatic', 'Static13', 'ConnectStatic0', 'ConnectStatic1']
+   |    |    | child_window(class_name="Static")
+   |    |    | 
+   |    |    | Static - 'Portal:'    (L-31964, T-31932, R-31892, B-31919)
+   |    |    | ['Portal:', 'Portal:Static', 'Static14']
+   |    |    | child_window(title="Portal:", class_name="Static")
+   |    |    | 
+   |    |    | Static - 'Using Cached Portal'    (L-31818, T-31932, R-31557, B-31919)
+   |    |    | ['Using Cached PortalStatic', 'Using Cached Portal', 'Static15']
+   |    |    | child_window(title="Using Cached Portal", class_name="Static")
+   |    |    | 
+   |    |    | ListView - ''    (L-31986, T-31686, R-31986, B-31686)
+   |    |    | ['ListView', 'XListView']
+   |    |    | child_window(class_name="SysListView32")
+   |    |    |    | 
+   |    |    |    | Header - ''    (L-31986, T-31686, R-31986, B-31669)
+   |    |    |    | ['XHeader', 'Header']
+   |    |    |    | child_window(class_name="SysHeader32")
+   |    |    | 
+   |    |    | Header - ''    (L-31986, T-31686, R-31986, B-31669)
+   |    |    | ['XHeader', 'Header']
+   |    |    | child_window(class_name="SysHeader32")
+   |    |    | 
+   |    |    | GroupBox - 'Connection'    (L-31986, T-31954, R-31986, B-31840)
+   |    |    | ['GroupBox4', 'ConnectionGroupBox', 'Connection']
+   |    |    | child_window(title="Connection", class_name="Button")
+   |    |    | 
+   |    |    | Static - 'Assigned Local IP:'    (L-31965, T-31916, R-31875, B-31903)
+   |    |    | ['Assigned Local IP:Static', 'Assigned Local IP:', 'Static16']
+   |    |    | child_window(title="Assigned Local IP:", class_name="Static")
+   |    |    | 
+   |    |    | Static - 'GlobalProtect Gateway IP:'    (L-31965, T-31898, R-31819, B-31885)
+   |    |    | ['GlobalProtect Gateway IP:Static', 'GlobalProtect Gateway IP:', 'Static17']
+   |    |    | child_window(title="GlobalProtect Gateway IP:", class_name="Static")
+   |    |    | 
+   |    |    | Static - 'Protocol:'    (L-31965, T-31880, R-31900, B-31867)
+   |    |    | ['Protocol:Static', 'Static18', 'Protocol:']
+   |    |    | child_window(title="Protocol:", class_name="Static")
+   |    |    | 
+   |    |    | Static - ''    (L-31818, T-31916, R-31548, B-31903)
+   |    |    | ['PortalStatic2', 'Static19']
+   |    |    | child_window(class_name="Static")
+   |    |    | 
+   |    |    | Static - ''    (L-31818, T-31898, R-31543, B-31885)
+   |    |    | ['PortalStatic3', 'Static20']
+   |    |    | child_window(class_name="Static")
+   |    |    | 
+   |    |    | Static - ''    (L-31818, T-31880, R-31734, B-31867)
+   |    |    | ['PortalStatic4', 'Static21']
+   |    |    | child_window(class_name="Static")
+   |    |    | 
+   |    |    | Static - 'Bytes In:'    (L-31964, T-31817, R-31895, B-31804)
+   |    |    | ['Bytes In:Static', 'Bytes In:', 'Static22']
+   |    |    | child_window(title="Bytes In:", class_name="Static")
+   |    |    | 
+   |    |    | Static - 'Bytes Out:'    (L-31770, T-31815, R-31696, B-31802)
+   |    |    | ['Bytes Out:', 'Bytes Out:Static', 'Static23']
+   |    |    | child_window(title="Bytes Out:", class_name="Static")
+   |    |    | 
+   |    |    | Static - 'Packet In:'    (L-31964, T-31799, R-31890, B-31786)
+   |    |    | ['Packet In:Static', 'Static24', 'Packet In:']
+   |    |    | child_window(title="Packet In:", class_name="Static")
+   |    |    | 
+   |    |    | Static - 'Packet Out:'    (L-31770, T-31798, R-31690, B-31785)
+   |    |    | ['Packet Out:', 'Packet Out:Static', 'Static25']
+   |    |    | child_window(title="Packet Out:", class_name="Static")
+   |    |    | 
+   |    |    | Static - 'Packet I/Error:'    (L-31964, T-31781, R-31880, B-31768)
+   |    |    | ['Packet I/Error:', 'Packet I/Error:Static', 'Static26']
+   |    |    | child_window(title="Packet I/Error:", class_name="Static")
+   |    |    | 
+   |    |    | Static - 'Packet O/Error:'    (L-31770, T-31780, R-31684, B-31767)
+   |    |    | ['Packet O/Error:Static', 'Packet O/Error:', 'Static27']
+   |    |    | child_window(title="Packet O/Error:", class_name="Static")
+   |    |    | 
+   |    |    | Static - ''    (L-31868, T-31815, R-31776, B-31802)
+   |    |    | ['ConnectStatic2', 'Static28']
+   |    |    | child_window(class_name="Static")
+   |    |    | 
+   |    |    | Static - ''    (L-31868, T-31798, R-31778, B-31785)
+   |    |    | ['Not ConnectedStatic3', 'Static29']
+   |    |    | child_window(class_name="Static")
+   |    |    | 
+   |    |    | Static - ''    (L-31868, T-31780, R-31775, B-31767)
+   |    |    | ['Not ConnectedStatic4', 'Static30']
+   |    |    | child_window(class_name="Static")
+   |    |    | 
+   |    |    | Static - ''    (L-31674, T-31815, R-31563, B-31802)
+   |    |    | ['Not ConnectedStatic5', 'Static31']
+   |    |    | child_window(class_name="Static")
+   |    |    | 
+   |    |    | Static - ''    (L-31674, T-31798, R-31576, B-31785)
+   |    |    | ['Not ConnectedStatic6', 'Static32']
+   |    |    | child_window(class_name="Static")
+   |    |    | 
+   |    |    | Static - ''    (L-31674, T-31780, R-31579, B-31767)
+   |    |    | ['Not ConnectedStatic7', 'Static33']
+   |    |    | child_window(class_name="Static")
+   |    |    | 
+   |    |    | GroupBox - 'Statistics'    (L-31986, T-31837, R-31986, B-31694)
+   |    |    | ['Statistics', 'GroupBox5', 'StatisticsGroupBox']
+   |    |    | child_window(title="Statistics", class_name="Button")
+   |    |    | 
+   |    |    | GroupBox - 'Messages'    (L-31986, T-31691, R-31986, B-31691)
+   |    |    | ['GroupBox6', 'Messages', 'MessagesGroupBox']
+   |    |    | child_window(title="Messages", class_name="Button")
+   |    |    | 
+   |    |    | Static - 'Uptime:'    (L-31965, T-31863, R-31926, B-31850)
+   |    |    | ['Uptime:', 'Static34', 'Uptime:Static']
+   |    |    | child_window(title="Uptime:", class_name="Static")
+   |    |    | 
+   |    |    | Static - ''    (L-31818, T-31863, R-31684, B-31850)
+   |    |    | ['ConnectStatic3', 'Static35']
+   |    |    | child_window(class_name="Static")
+   |    | 
+   |    | Static - 'Status:'    (L-31703, T-31877, R-31665, B-31864)
+   |    | ['Status:Static4', 'Status:2', 'Static12']
+   |    | child_window(title="Status:", class_name="Static")
+   |    | 
+   |    | Static - ''    (L-31662, T-31877, R-31557, B-31864)
+   |    | ['ConnectStatic', 'Static13', 'ConnectStatic0', 'ConnectStatic1']
+   |    | child_window(class_name="Static")
+   |    | 
+   |    | Static - 'Portal:'    (L-31964, T-31932, R-31892, B-31919)
+   |    | ['Portal:', 'Portal:Static', 'Static14']
+   |    | child_window(title="Portal:", class_name="Static")
+   |    | 
+   |    | Static - 'Using Cached Portal'    (L-31818, T-31932, R-31557, B-31919)
+   |    | ['Using Cached PortalStatic', 'Using Cached Portal', 'Static15']
+   |    | child_window(title="Using Cached Portal", class_name="Static")
+   |    | 
+   |    | ListView - ''    (L-31986, T-31686, R-31986, B-31686)
+   |    | ['ListView', 'XListView']
+   |    | child_window(class_name="SysListView32")
+   |    |    | 
+   |    |    | Header - ''    (L-31986, T-31686, R-31986, B-31669)
+   |    |    | ['XHeader', 'Header']
+   |    |    | child_window(class_name="SysHeader32")
+   |    | 
+   |    | Header - ''    (L-31986, T-31686, R-31986, B-31669)
+   |    | ['XHeader', 'Header']
+   |    | child_window(class_name="SysHeader32")
+   |    | 
+   |    | GroupBox - 'Connection'    (L-31986, T-31954, R-31986, B-31840)
+   |    | ['GroupBox4', 'ConnectionGroupBox', 'Connection']
+   |    | child_window(title="Connection", class_name="Button")
+   |    | 
+   |    | Static - 'Assigned Local IP:'    (L-31965, T-31916, R-31875, B-31903)
+   |    | ['Assigned Local IP:Static', 'Assigned Local IP:', 'Static16']
+   |    | child_window(title="Assigned Local IP:", class_name="Static")
+   |    | 
+   |    | Static - 'GlobalProtect Gateway IP:'    (L-31965, T-31898, R-31819, B-31885)
+   |    | ['GlobalProtect Gateway IP:Static', 'GlobalProtect Gateway IP:', 'Static17']
+   |    | child_window(title="GlobalProtect Gateway IP:", class_name="Static")
+   |    | 
+   |    | Static - 'Protocol:'    (L-31965, T-31880, R-31900, B-31867)
+   |    | ['Protocol:Static', 'Static18', 'Protocol:']
+   |    | child_window(title="Protocol:", class_name="Static")
+   |    | 
+   |    | Static - ''    (L-31818, T-31916, R-31548, B-31903)
+   |    | ['PortalStatic2', 'Static19']
+   |    | child_window(class_name="Static")
+   |    | 
+   |    | Static - ''    (L-31818, T-31898, R-31543, B-31885)
+   |    | ['PortalStatic3', 'Static20']
+   |    | child_window(class_name="Static")
+   |    | 
+   |    | Static - ''    (L-31818, T-31880, R-31734, B-31867)
+   |    | ['PortalStatic4', 'Static21']
+   |    | child_window(class_name="Static")
+   |    | 
+   |    | Static - 'Bytes In:'    (L-31964, T-31817, R-31895, B-31804)
+   |    | ['Bytes In:Static', 'Bytes In:', 'Static22']
+   |    | child_window(title="Bytes In:", class_name="Static")
+   |    | 
+   |    | Static - 'Bytes Out:'    (L-31770, T-31815, R-31696, B-31802)
+   |    | ['Bytes Out:', 'Bytes Out:Static', 'Static23']
+   |    | child_window(title="Bytes Out:", class_name="Static")
+   |    | 
+   |    | Static - 'Packet In:'    (L-31964, T-31799, R-31890, B-31786)
+   |    | ['Packet In:Static', 'Static24', 'Packet In:']
+   |    | child_window(title="Packet In:", class_name="Static")
+   |    | 
+   |    | Static - 'Packet Out:'    (L-31770, T-31798, R-31690, B-31785)
+   |    | ['Packet Out:', 'Packet Out:Static', 'Static25']
+   |    | child_window(title="Packet Out:", class_name="Static")
+   |    | 
+   |    | Static - 'Packet I/Error:'    (L-31964, T-31781, R-31880, B-31768)
+   |    | ['Packet I/Error:', 'Packet I/Error:Static', 'Static26']
+   |    | child_window(title="Packet I/Error:", class_name="Static")
+   |    | 
+   |    | Static - 'Packet O/Error:'    (L-31770, T-31780, R-31684, B-31767)
+   |    | ['Packet O/Error:Static', 'Packet O/Error:', 'Static27']
+   |    | child_window(title="Packet O/Error:", class_name="Static")
+   |    | 
+   |    | Static - ''    (L-31868, T-31815, R-31776, B-31802)
+   |    | ['ConnectStatic2', 'Static28']
+   |    | child_window(class_name="Static")
+   |    | 
+   |    | Static - ''    (L-31868, T-31798, R-31778, B-31785)
+   |    | ['Not ConnectedStatic3', 'Static29']
+   |    | child_window(class_name="Static")
+   |    | 
+   |    | Static - ''    (L-31868, T-31780, R-31775, B-31767)
+   |    | ['Not ConnectedStatic4', 'Static30']
+   |    | child_window(class_name="Static")
+   |    | 
+   |    | Static - ''    (L-31674, T-31815, R-31563, B-31802)
+   |    | ['Not ConnectedStatic5', 'Static31']
+   |    | child_window(class_name="Static")
+   |    | 
+   |    | Static - ''    (L-31674, T-31798, R-31576, B-31785)
+   |    | ['Not ConnectedStatic6', 'Static32']
+   |    | child_window(class_name="Static")
+   |    | 
+   |    | Static - ''    (L-31674, T-31780, R-31579, B-31767)
+   |    | ['Not ConnectedStatic7', 'Static33']
+   |    | child_window(class_name="Static")
+   |    | 
+   |    | GroupBox - 'Statistics'    (L-31986, T-31837, R-31986, B-31694)
+   |    | ['Statistics', 'GroupBox5', 'StatisticsGroupBox']
+   |    | child_window(title="Statistics", class_name="Button")
+   |    | 
+   |    | GroupBox - 'Messages'    (L-31986, T-31691, R-31986, B-31691)
+   |    | ['GroupBox6', 'Messages', 'MessagesGroupBox']
+   |    | child_window(title="Messages", class_name="Button")
+   |    | 
+   |    | Static - 'Uptime:'    (L-31965, T-31863, R-31926, B-31850)
+   |    | ['Uptime:', 'Static34', 'Uptime:Static']
+   |    | child_window(title="Uptime:", class_name="Static")
+   |    | 
+   |    | Static - ''    (L-31818, T-31863, R-31684, B-31850)
+   |    | ['ConnectStatic3', 'Static35']
+   |    | child_window(class_name="Static")
+   |    | 
+   |    | #32770 - ''    (L-31997, T-31965, R-31997, B-31965)
+   |    | ['GlobalProtect#327704', '#327704']
+   |    | child_window(class_name="#32770")
+   |    |    | 
+   |    |    | Afx:00007FF6F35E0000:3:0000000000010003:0000000000900010:000000000001002B - ''    (L-31986, T-31902, R-31351, B-31606)
+   |    |    | ['PortalAfx:00007FF6F35E0000:3:0000000000010003:0000000000900010:000000000001002B', 'Afx:00007FF6F35E0000:3:0000000000010003:0000000000900010:000000000001002B']
+   |    |    | child_window(class_name="Afx:00007FF6F35E0000:3:0000000000010003:0000000000900010:000000000001002B")
+   |    |    |    | 
+   |    |    |    | AfxMDIFrame120u - ''    (L-31986, T-31902, R-31351, B-31606)
+   |    |    |    | ['PortalAfxMDIFrame120u', 'AfxMDIFrame120u']
+   |    |    |    | child_window(class_name="AfxMDIFrame120u")
+   |    |    |    |    | 
+   |    |    |    |    | TreeView - ''    (L-31984, T-31900, R-31780, B-31608)
+   |    |    |    |    | ['TreeView', 'PortalTreeView']
+   |    |    |    |    | child_window(class_name="SysTreeView32")
+   |    |    |    |    | 
+   |    |    |    |    | #32770 - ''    (L-31773, T-31900, R-31353, B-31608)
+   |    |    |    |    | ['Connect#32770', '#327705']
+   |    |    |    |    | child_window(class_name="#32770")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'TODO: Place form controls on this dialog.'    (L-31762, T-31877, R-31342, B-31601)
+   |    |    |    |    |    | ['TODO: Place form controls on this dialog.Static', 'TODO: Place form controls on this dialog.', 'Static36']
+   |    |    |    |    |    | child_window(title="TODO: Place form controls on this dialog.", class_name="Static")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'TODO: Place form controls on this dialog.'    (L-31762, T-31877, R-31342, B-31601)
+   |    |    |    |    | ['TODO: Place form controls on this dialog.Static', 'TODO: Place form controls on this dialog.', 'Static36']
+   |    |    |    |    | child_window(title="TODO: Place form controls on this dialog.", class_name="Static")
+   |    |    |    | 
+   |    |    |    | TreeView - ''    (L-31984, T-31900, R-31780, B-31608)
+   |    |    |    | ['TreeView', 'PortalTreeView']
+   |    |    |    | child_window(class_name="SysTreeView32")
+   |    |    |    | 
+   |    |    |    | #32770 - ''    (L-31773, T-31900, R-31353, B-31608)
+   |    |    |    | ['Connect#32770', '#327705']
+   |    |    |    | child_window(class_name="#32770")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'TODO: Place form controls on this dialog.'    (L-31762, T-31877, R-31342, B-31601)
+   |    |    |    |    | ['TODO: Place form controls on this dialog.Static', 'TODO: Place form controls on this dialog.', 'Static36']
+   |    |    |    |    | child_window(title="TODO: Place form controls on this dialog.", class_name="Static")
+   |    |    |    | 
+   |    |    |    | Static - 'TODO: Place form controls on this dialog.'    (L-31762, T-31877, R-31342, B-31601)
+   |    |    |    | ['TODO: Place form controls on this dialog.Static', 'TODO: Place form controls on this dialog.', 'Static36']
+   |    |    |    | child_window(title="TODO: Place form controls on this dialog.", class_name="Static")
+   |    |    | 
+   |    |    | AfxMDIFrame120u - ''    (L-31986, T-31902, R-31351, B-31606)
+   |    |    | ['PortalAfxMDIFrame120u', 'AfxMDIFrame120u']
+   |    |    | child_window(class_name="AfxMDIFrame120u")
+   |    |    |    | 
+   |    |    |    | TreeView - ''    (L-31984, T-31900, R-31780, B-31608)
+   |    |    |    | ['TreeView', 'PortalTreeView']
+   |    |    |    | child_window(class_name="SysTreeView32")
+   |    |    |    | 
+   |    |    |    | #32770 - ''    (L-31773, T-31900, R-31353, B-31608)
+   |    |    |    | ['Connect#32770', '#327705']
+   |    |    |    | child_window(class_name="#32770")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'TODO: Place form controls on this dialog.'    (L-31762, T-31877, R-31342, B-31601)
+   |    |    |    |    | ['TODO: Place form controls on this dialog.Static', 'TODO: Place form controls on this dialog.', 'Static36']
+   |    |    |    |    | child_window(title="TODO: Place form controls on this dialog.", class_name="Static")
+   |    |    |    | 
+   |    |    |    | Static - 'TODO: Place form controls on this dialog.'    (L-31762, T-31877, R-31342, B-31601)
+   |    |    |    | ['TODO: Place form controls on this dialog.Static', 'TODO: Place form controls on this dialog.', 'Static36']
+   |    |    |    | child_window(title="TODO: Place form controls on this dialog.", class_name="Static")
+   |    |    | 
+   |    |    | TreeView - ''    (L-31984, T-31900, R-31780, B-31608)
+   |    |    | ['TreeView', 'PortalTreeView']
+   |    |    | child_window(class_name="SysTreeView32")
+   |    |    | 
+   |    |    | #32770 - ''    (L-31773, T-31900, R-31353, B-31608)
+   |    |    | ['Connect#32770', '#327705']
+   |    |    | child_window(class_name="#32770")
+   |    |    |    | 
+   |    |    |    | Static - 'TODO: Place form controls on this dialog.'    (L-31762, T-31877, R-31342, B-31601)
+   |    |    |    | ['TODO: Place form controls on this dialog.Static', 'TODO: Place form controls on this dialog.', 'Static36']
+   |    |    |    | child_window(title="TODO: Place form controls on this dialog.", class_name="Static")
+   |    |    | 
+   |    |    | Static - 'TODO: Place form controls on this dialog.'    (L-31762, T-31877, R-31342, B-31601)
+   |    |    | ['TODO: Place form controls on this dialog.Static', 'TODO: Place form controls on this dialog.', 'Static36']
+   |    |    | child_window(title="TODO: Place form controls on this dialog.", class_name="Static")
+   |    |    | 
+   |    |    | GroupBox - 'Settings'    (L-31986, T-31954, R-31351, B-31910)
+   |    |    | ['GroupBox7', 'SettingsGroupBox', 'Settings']
+   |    |    | child_window(title="Settings", class_name="Button")
+   |    |    | 
+   |    |    | Static - 'Hip Interval:'    (L-31970, T-31936, R-31908, B-31920)
+   |    |    | ['Hip Interval:', 'Hip Interval:Static', 'Static37']
+   |    |    | child_window(title="Hip Interval:", class_name="Static")
+   |    |    | 
+   |    |    | Static - '3600'    (L-31907, T-31936, R-31851, B-31923)
+   |    |    | ['3600Static', '3600', 'Static38']
+   |    |    | child_window(title="3600", class_name="Static")
+   |    |    | 
+   |    |    | Button - 'Resubmit Host Info'    (L-31839, T-31939, R-31708, B-31919)
+   |    |    | ['Button4', 'Resubmit Host Info', 'Resubmit Host InfoButton']
+   |    |    | child_window(title="Resubmit Host Info", class_name="Button")
+   |    | 
+   |    | Afx:00007FF6F35E0000:3:0000000000010003:0000000000900010:000000000001002B - ''    (L-31986, T-31902, R-31351, B-31606)
+   |    | ['PortalAfx:00007FF6F35E0000:3:0000000000010003:0000000000900010:000000000001002B', 'Afx:00007FF6F35E0000:3:0000000000010003:0000000000900010:000000000001002B']
+   |    | child_window(class_name="Afx:00007FF6F35E0000:3:0000000000010003:0000000000900010:000000000001002B")
+   |    |    | 
+   |    |    | AfxMDIFrame120u - ''    (L-31986, T-31902, R-31351, B-31606)
+   |    |    | ['PortalAfxMDIFrame120u', 'AfxMDIFrame120u']
+   |    |    | child_window(class_name="AfxMDIFrame120u")
+   |    |    |    | 
+   |    |    |    | TreeView - ''    (L-31984, T-31900, R-31780, B-31608)
+   |    |    |    | ['TreeView', 'PortalTreeView']
+   |    |    |    | child_window(class_name="SysTreeView32")
+   |    |    |    | 
+   |    |    |    | #32770 - ''    (L-31773, T-31900, R-31353, B-31608)
+   |    |    |    | ['Connect#32770', '#327705']
+   |    |    |    | child_window(class_name="#32770")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'TODO: Place form controls on this dialog.'    (L-31762, T-31877, R-31342, B-31601)
+   |    |    |    |    | ['TODO: Place form controls on this dialog.Static', 'TODO: Place form controls on this dialog.', 'Static36']
+   |    |    |    |    | child_window(title="TODO: Place form controls on this dialog.", class_name="Static")
+   |    |    |    | 
+   |    |    |    | Static - 'TODO: Place form controls on this dialog.'    (L-31762, T-31877, R-31342, B-31601)
+   |    |    |    | ['TODO: Place form controls on this dialog.Static', 'TODO: Place form controls on this dialog.', 'Static36']
+   |    |    |    | child_window(title="TODO: Place form controls on this dialog.", class_name="Static")
+   |    |    | 
+   |    |    | TreeView - ''    (L-31984, T-31900, R-31780, B-31608)
+   |    |    | ['TreeView', 'PortalTreeView']
+   |    |    | child_window(class_name="SysTreeView32")
+   |    |    | 
+   |    |    | #32770 - ''    (L-31773, T-31900, R-31353, B-31608)
+   |    |    | ['Connect#32770', '#327705']
+   |    |    | child_window(class_name="#32770")
+   |    |    |    | 
+   |    |    |    | Static - 'TODO: Place form controls on this dialog.'    (L-31762, T-31877, R-31342, B-31601)
+   |    |    |    | ['TODO: Place form controls on this dialog.Static', 'TODO: Place form controls on this dialog.', 'Static36']
+   |    |    |    | child_window(title="TODO: Place form controls on this dialog.", class_name="Static")
+   |    |    | 
+   |    |    | Static - 'TODO: Place form controls on this dialog.'    (L-31762, T-31877, R-31342, B-31601)
+   |    |    | ['TODO: Place form controls on this dialog.Static', 'TODO: Place form controls on this dialog.', 'Static36']
+   |    |    | child_window(title="TODO: Place form controls on this dialog.", class_name="Static")
+   |    | 
+   |    | AfxMDIFrame120u - ''    (L-31986, T-31902, R-31351, B-31606)
+   |    | ['PortalAfxMDIFrame120u', 'AfxMDIFrame120u']
+   |    | child_window(class_name="AfxMDIFrame120u")
+   |    |    | 
+   |    |    | TreeView - ''    (L-31984, T-31900, R-31780, B-31608)
+   |    |    | ['TreeView', 'PortalTreeView']
+   |    |    | child_window(class_name="SysTreeView32")
+   |    |    | 
+   |    |    | #32770 - ''    (L-31773, T-31900, R-31353, B-31608)
+   |    |    | ['Connect#32770', '#327705']
+   |    |    | child_window(class_name="#32770")
+   |    |    |    | 
+   |    |    |    | Static - 'TODO: Place form controls on this dialog.'    (L-31762, T-31877, R-31342, B-31601)
+   |    |    |    | ['TODO: Place form controls on this dialog.Static', 'TODO: Place form controls on this dialog.', 'Static36']
+   |    |    |    | child_window(title="TODO: Place form controls on this dialog.", class_name="Static")
+   |    |    | 
+   |    |    | Static - 'TODO: Place form controls on this dialog.'    (L-31762, T-31877, R-31342, B-31601)
+   |    |    | ['TODO: Place form controls on this dialog.Static', 'TODO: Place form controls on this dialog.', 'Static36']
+   |    |    | child_window(title="TODO: Place form controls on this dialog.", class_name="Static")
+   |    | 
+   |    | TreeView - ''    (L-31984, T-31900, R-31780, B-31608)
+   |    | ['TreeView', 'PortalTreeView']
+   |    | child_window(class_name="SysTreeView32")
+   |    | 
+   |    | #32770 - ''    (L-31773, T-31900, R-31353, B-31608)
+   |    | ['Connect#32770', '#327705']
+   |    | child_window(class_name="#32770")
+   |    |    | 
+   |    |    | Static - 'TODO: Place form controls on this dialog.'    (L-31762, T-31877, R-31342, B-31601)
+   |    |    | ['TODO: Place form controls on this dialog.Static', 'TODO: Place form controls on this dialog.', 'Static36']
+   |    |    | child_window(title="TODO: Place form controls on this dialog.", class_name="Static")
+   |    | 
+   |    | Static - 'TODO: Place form controls on this dialog.'    (L-31762, T-31877, R-31342, B-31601)
+   |    | ['TODO: Place form controls on this dialog.Static', 'TODO: Place form controls on this dialog.', 'Static36']
+   |    | child_window(title="TODO: Place form controls on this dialog.", class_name="Static")
+   |    | 
+   |    | GroupBox - 'Settings'    (L-31986, T-31954, R-31351, B-31910)
+   |    | ['GroupBox7', 'SettingsGroupBox', 'Settings']
+   |    | child_window(title="Settings", class_name="Button")
+   |    | 
+   |    | Static - 'Hip Interval:'    (L-31970, T-31936, R-31908, B-31920)
+   |    | ['Hip Interval:', 'Hip Interval:Static', 'Static37']
+   |    | child_window(title="Hip Interval:", class_name="Static")
+   |    | 
+   |    | Static - '3600'    (L-31907, T-31936, R-31851, B-31923)
+   |    | ['3600Static', '3600', 'Static38']
+   |    | child_window(title="3600", class_name="Static")
+   |    | 
+   |    | Button - 'Resubmit Host Info'    (L-31839, T-31939, R-31708, B-31919)
+   |    | ['Button4', 'Resubmit Host Info', 'Resubmit Host InfoButton']
+   |    | child_window(title="Resubmit Host Info", class_name="Button")
+   |    | 
+   |    | #32770 - ''    (L-31997, T-31965, R-31997, B-31965)
+   |    | ['GlobalProtect#327705', '#327706']
+   |    | child_window(class_name="#32770")
+   |    |    | 
+   |    |    | GroupBox - 'Type'    (L-31986, T-31954, R-31986, B-31910)
+   |    |    | ['TypeGroupBox', 'GroupBox8', 'Type']
+   |    |    | child_window(title="Type", class_name="Button")
+   |    |    | 
+   |    |    | RadioButton - 'Software'    (L-31526, T-31936, R-31506, B-31920)
+   |    |    | ['SoftwareRadioButton', 'RadioButton', 'Software', 'RadioButton0', 'RadioButton1']
+   |    |    | child_window(title="Software", class_name="Button")
+   |    |    | 
+   |    |    | RadioButton - 'Network Configurations'    (L-31983, T-31936, R-31842, B-31920)
+   |    |    | ['Network Configurations', 'RadioButton2', 'Network ConfigurationsRadioButton']
+   |    |    | child_window(title="Network Configurations", class_name="Button")
+   |    |    | 
+   |    |    | RadioButton - 'Routing Table'    (L-31836, T-31936, R-31743, B-31920)
+   |    |    | ['RadioButton3', 'Routing TableRadioButton', 'Routing Table']
+   |    |    | child_window(title="Routing Table", class_name="Button")
+   |    |    | 
+   |    |    | ListBox - ''    (L-31986, T-31902, R-31986, B-31902)
+   |    |    | ['XListBox', 'ListBox', 'XListBox0', 'XListBox1', 'ListBox0', 'ListBox1']
+   |    |    | child_window(class_name="ListBox")
+   |    |    | 
+   |    |    | RadioButton - 'Sockets'    (L-31727, T-31936, R-31664, B-31920)
+   |    |    | ['SocketsRadioButton', 'RadioButton4', 'Sockets']
+   |    |    | child_window(title="Sockets", class_name="Button")
+   |    |    | 
+   |    |    | RadioButton - 'Logs'    (L-31658, T-31936, R-31610, B-31920)
+   |    |    | ['RadioButton5', 'Logs', 'LogsRadioButton']
+   |    |    | child_window(title="Logs", class_name="Button")
+   |    |    | 
+   |    |    | Button - 'Rediscover Network'    (L-31608, T-31939, R-31492, B-31919)
+   |    |    | ['Button5', 'Rediscover Network', 'Rediscover NetworkButton']
+   |    |    | child_window(title="Rediscover Network", class_name="Button")
+   |    |    | 
+   |    |    | #32770 - ''    (L-31986, T-31907, R-31986, B-31907)
+   |    |    | ['#327707', 'X#32770']
+   |    |    | child_window(class_name="#32770")
+   |    |    |    | 
+   |    |    |    | GroupBox - ''    (L-31986, T-31907, R-31986, B-31863)
+   |    |    |    | ['GroupBox9', 'XGroupBox']
+   |    |    |    | child_window(class_name="Button")
+   |    |    |    | 
+   |    |    |    | ListBox - ''    (L-31986, T-31855, R-31986, B-31855)
+   |    |    |    | ['XListBox2', 'ListBox2']
+   |    |    |    | child_window(class_name="ListBox")
+   |    |    |    | 
+   |    |    |    | ComboBox - 'PanGP Service'    (L-31947, T-31892, R-31848, B-31871)
+   |    |    |    | ['PortalComboBox', 'ComboBox', 'PortalComboBox0', 'PortalComboBox1', 'ComboBox0', 'ComboBox1']
+   |    |    |    | child_window(title="PanGP Service", class_name="ComboBox")
+   |    |    |    |    | 
+   |    |    |    |    | Edit - 'PanGP Service'    (L-31944, T-31889, R-31868, B-31874)
+   |    |    |    |    | ['Edit3', 'PortalEdit2']
+   |    |    |    |    | child_window(title="PanGP Service", class_name="Edit")
+   |    |    |    | 
+   |    |    |    | Edit - 'PanGP Service'    (L-31944, T-31889, R-31868, B-31874)
+   |    |    |    | ['Edit3', 'PortalEdit2']
+   |    |    |    | child_window(title="PanGP Service", class_name="Edit")
+   |    |    |    | 
+   |    |    |    | Button - 'Start'    (L-31847, T-31892, R-31797, B-31871)
+   |    |    |    | ['Button6', 'Start', 'StartButton']
+   |    |    |    | child_window(title="Start", class_name="Button")
+   |    |    |    | 
+   |    |    |    | Button - 'Stop'    (L-31793, T-31892, R-31746, B-31871)
+   |    |    |    | ['Button7', 'StopButton', 'Stop']
+   |    |    |    | child_window(title="Stop", class_name="Button")
+   |    |    |    | 
+   |    |    |    | Static - 'Log:'    (L-31974, T-31892, R-31951, B-31879)
+   |    |    |    | ['Log:Static', 'Static39', 'Log:']
+   |    |    |    | child_window(title="Log:", class_name="Static")
+   |    |    |    | 
+   |    |    |    | ComboBox - 'Debug'    (L-31670, T-31892, R-31577, B-31871)
+   |    |    |    | ['PortalComboBox2', 'ComboBox2']
+   |    |    |    | child_window(title="Debug", class_name="ComboBox")
+   |    |    |    |    | 
+   |    |    |    |    | Edit - 'Debug'    (L-31667, T-31889, R-31597, B-31874)
+   |    |    |    |    | ['Edit4', 'PortalEdit3']
+   |    |    |    |    | child_window(title="Debug", class_name="Edit")
+   |    |    |    | 
+   |    |    |    | Edit - 'Debug'    (L-31667, T-31889, R-31597, B-31874)
+   |    |    |    | ['Edit4', 'PortalEdit3']
+   |    |    |    | child_window(title="Debug", class_name="Edit")
+   |    |    |    | 
+   |    |    |    | Static - 'Debug Level:'    (L-31736, T-31890, R-31670, B-31877)
+   |    |    |    | ['Debug Level:Static', 'Debug Level:', 'Static40']
+   |    |    |    | child_window(title="Debug Level:", class_name="Static")
+   |    |    | 
+   |    |    | GroupBox - ''    (L-31986, T-31907, R-31986, B-31863)
+   |    |    | ['GroupBox9', 'XGroupBox']
+   |    |    | child_window(class_name="Button")
+   |    |    | 
+   |    |    | ListBox - ''    (L-31986, T-31855, R-31986, B-31855)
+   |    |    | ['XListBox2', 'ListBox2']
+   |    |    | child_window(class_name="ListBox")
+   |    |    | 
+   |    |    | ComboBox - 'PanGP Service'    (L-31947, T-31892, R-31848, B-31871)
+   |    |    | ['PortalComboBox', 'ComboBox', 'PortalComboBox0', 'PortalComboBox1', 'ComboBox0', 'ComboBox1']
+   |    |    | child_window(title="PanGP Service", class_name="ComboBox")
+   |    |    |    | 
+   |    |    |    | Edit - 'PanGP Service'    (L-31944, T-31889, R-31868, B-31874)
+   |    |    |    | ['Edit3', 'PortalEdit2']
+   |    |    |    | child_window(title="PanGP Service", class_name="Edit")
+   |    |    | 
+   |    |    | Edit - 'PanGP Service'    (L-31944, T-31889, R-31868, B-31874)
+   |    |    | ['Edit3', 'PortalEdit2']
+   |    |    | child_window(title="PanGP Service", class_name="Edit")
+   |    |    | 
+   |    |    | Button - 'Start'    (L-31847, T-31892, R-31797, B-31871)
+   |    |    | ['Button6', 'Start', 'StartButton']
+   |    |    | child_window(title="Start", class_name="Button")
+   |    |    | 
+   |    |    | Button - 'Stop'    (L-31793, T-31892, R-31746, B-31871)
+   |    |    | ['Button7', 'StopButton', 'Stop']
+   |    |    | child_window(title="Stop", class_name="Button")
+   |    |    | 
+   |    |    | Static - 'Log:'    (L-31974, T-31892, R-31951, B-31879)
+   |    |    | ['Log:Static', 'Static39', 'Log:']
+   |    |    | child_window(title="Log:", class_name="Static")
+   |    |    | 
+   |    |    | ComboBox - 'Debug'    (L-31670, T-31892, R-31577, B-31871)
+   |    |    | ['PortalComboBox2', 'ComboBox2']
+   |    |    | child_window(title="Debug", class_name="ComboBox")
+   |    |    |    | 
+   |    |    |    | Edit - 'Debug'    (L-31667, T-31889, R-31597, B-31874)
+   |    |    |    | ['Edit4', 'PortalEdit3']
+   |    |    |    | child_window(title="Debug", class_name="Edit")
+   |    |    | 
+   |    |    | Edit - 'Debug'    (L-31667, T-31889, R-31597, B-31874)
+   |    |    | ['Edit4', 'PortalEdit3']
+   |    |    | child_window(title="Debug", class_name="Edit")
+   |    |    | 
+   |    |    | Static - 'Debug Level:'    (L-31736, T-31890, R-31670, B-31877)
+   |    |    | ['Debug Level:Static', 'Debug Level:', 'Static40']
+   |    |    | child_window(title="Debug Level:", class_name="Static")
+   |    | 
+   |    | GroupBox - 'Type'    (L-31986, T-31954, R-31986, B-31910)
+   |    | ['TypeGroupBox', 'GroupBox8', 'Type']
+   |    | child_window(title="Type", class_name="Button")
+   |    | 
+   |    | RadioButton - 'Software'    (L-31526, T-31936, R-31506, B-31920)
+   |    | ['SoftwareRadioButton', 'RadioButton', 'Software', 'RadioButton0', 'RadioButton1']
+   |    | child_window(title="Software", class_name="Button")
+   |    | 
+   |    | RadioButton - 'Network Configurations'    (L-31983, T-31936, R-31842, B-31920)
+   |    | ['Network Configurations', 'RadioButton2', 'Network ConfigurationsRadioButton']
+   |    | child_window(title="Network Configurations", class_name="Button")
+   |    | 
+   |    | RadioButton - 'Routing Table'    (L-31836, T-31936, R-31743, B-31920)
+   |    | ['RadioButton3', 'Routing TableRadioButton', 'Routing Table']
+   |    | child_window(title="Routing Table", class_name="Button")
+   |    | 
+   |    | ListBox - ''    (L-31986, T-31902, R-31986, B-31902)
+   |    | ['XListBox', 'ListBox', 'XListBox0', 'XListBox1', 'ListBox0', 'ListBox1']
+   |    | child_window(class_name="ListBox")
+   |    | 
+   |    | RadioButton - 'Sockets'    (L-31727, T-31936, R-31664, B-31920)
+   |    | ['SocketsRadioButton', 'RadioButton4', 'Sockets']
+   |    | child_window(title="Sockets", class_name="Button")
+   |    | 
+   |    | RadioButton - 'Logs'    (L-31658, T-31936, R-31610, B-31920)
+   |    | ['RadioButton5', 'Logs', 'LogsRadioButton']
+   |    | child_window(title="Logs", class_name="Button")
+   |    | 
+   |    | Button - 'Rediscover Network'    (L-31608, T-31939, R-31492, B-31919)
+   |    | ['Button5', 'Rediscover Network', 'Rediscover NetworkButton']
+   |    | child_window(title="Rediscover Network", class_name="Button")
+   |    | 
+   |    | #32770 - ''    (L-31986, T-31907, R-31986, B-31907)
+   |    | ['#327707', 'X#32770']
+   |    | child_window(class_name="#32770")
+   |    |    | 
+   |    |    | GroupBox - ''    (L-31986, T-31907, R-31986, B-31863)
+   |    |    | ['GroupBox9', 'XGroupBox']
+   |    |    | child_window(class_name="Button")
+   |    |    | 
+   |    |    | ListBox - ''    (L-31986, T-31855, R-31986, B-31855)
+   |    |    | ['XListBox2', 'ListBox2']
+   |    |    | child_window(class_name="ListBox")
+   |    |    | 
+   |    |    | ComboBox - 'PanGP Service'    (L-31947, T-31892, R-31848, B-31871)
+   |    |    | ['PortalComboBox', 'ComboBox', 'PortalComboBox0', 'PortalComboBox1', 'ComboBox0', 'ComboBox1']
+   |    |    | child_window(title="PanGP Service", class_name="ComboBox")
+   |    |    |    | 
+   |    |    |    | Edit - 'PanGP Service'    (L-31944, T-31889, R-31868, B-31874)
+   |    |    |    | ['Edit3', 'PortalEdit2']
+   |    |    |    | child_window(title="PanGP Service", class_name="Edit")
+   |    |    | 
+   |    |    | Edit - 'PanGP Service'    (L-31944, T-31889, R-31868, B-31874)
+   |    |    | ['Edit3', 'PortalEdit2']
+   |    |    | child_window(title="PanGP Service", class_name="Edit")
+   |    |    | 
+   |    |    | Button - 'Start'    (L-31847, T-31892, R-31797, B-31871)
+   |    |    | ['Button6', 'Start', 'StartButton']
+   |    |    | child_window(title="Start", class_name="Button")
+   |    |    | 
+   |    |    | Button - 'Stop'    (L-31793, T-31892, R-31746, B-31871)
+   |    |    | ['Button7', 'StopButton', 'Stop']
+   |    |    | child_window(title="Stop", class_name="Button")
+   |    |    | 
+   |    |    | Static - 'Log:'    (L-31974, T-31892, R-31951, B-31879)
+   |    |    | ['Log:Static', 'Static39', 'Log:']
+   |    |    | child_window(title="Log:", class_name="Static")
+   |    |    | 
+   |    |    | ComboBox - 'Debug'    (L-31670, T-31892, R-31577, B-31871)
+   |    |    | ['PortalComboBox2', 'ComboBox2']
+   |    |    | child_window(title="Debug", class_name="ComboBox")
+   |    |    |    | 
+   |    |    |    | Edit - 'Debug'    (L-31667, T-31889, R-31597, B-31874)
+   |    |    |    | ['Edit4', 'PortalEdit3']
+   |    |    |    | child_window(title="Debug", class_name="Edit")
+   |    |    | 
+   |    |    | Edit - 'Debug'    (L-31667, T-31889, R-31597, B-31874)
+   |    |    | ['Edit4', 'PortalEdit3']
+   |    |    | child_window(title="Debug", class_name="Edit")
+   |    |    | 
+   |    |    | Static - 'Debug Level:'    (L-31736, T-31890, R-31670, B-31877)
+   |    |    | ['Debug Level:Static', 'Debug Level:', 'Static40']
+   |    |    | child_window(title="Debug Level:", class_name="Static")
+   |    | 
+   |    | GroupBox - ''    (L-31986, T-31907, R-31986, B-31863)
+   |    | ['GroupBox9', 'XGroupBox']
+   |    | child_window(class_name="Button")
+   |    | 
+   |    | ListBox - ''    (L-31986, T-31855, R-31986, B-31855)
+   |    | ['XListBox2', 'ListBox2']
+   |    | child_window(class_name="ListBox")
+   |    | 
+   |    | ComboBox - 'PanGP Service'    (L-31947, T-31892, R-31848, B-31871)
+   |    | ['PortalComboBox', 'ComboBox', 'PortalComboBox0', 'PortalComboBox1', 'ComboBox0', 'ComboBox1']
+   |    | child_window(title="PanGP Service", class_name="ComboBox")
+   |    |    | 
+   |    |    | Edit - 'PanGP Service'    (L-31944, T-31889, R-31868, B-31874)
+   |    |    | ['Edit3', 'PortalEdit2']
+   |    |    | child_window(title="PanGP Service", class_name="Edit")
+   |    | 
+   |    | Edit - 'PanGP Service'    (L-31944, T-31889, R-31868, B-31874)
+   |    | ['Edit3', 'PortalEdit2']
+   |    | child_window(title="PanGP Service", class_name="Edit")
+   |    | 
+   |    | Button - 'Start'    (L-31847, T-31892, R-31797, B-31871)
+   |    | ['Button6', 'Start', 'StartButton']
+   |    | child_window(title="Start", class_name="Button")
+   |    | 
+   |    | Button - 'Stop'    (L-31793, T-31892, R-31746, B-31871)
+   |    | ['Button7', 'StopButton', 'Stop']
+   |    | child_window(title="Stop", class_name="Button")
+   |    | 
+   |    | Static - 'Log:'    (L-31974, T-31892, R-31951, B-31879)
+   |    | ['Log:Static', 'Static39', 'Log:']
+   |    | child_window(title="Log:", class_name="Static")
+   |    | 
+   |    | ComboBox - 'Debug'    (L-31670, T-31892, R-31577, B-31871)
+   |    | ['PortalComboBox2', 'ComboBox2']
+   |    | child_window(title="Debug", class_name="ComboBox")
+   |    |    | 
+   |    |    | Edit - 'Debug'    (L-31667, T-31889, R-31597, B-31874)
+   |    |    | ['Edit4', 'PortalEdit3']
+   |    |    | child_window(title="Debug", class_name="Edit")
+   |    | 
+   |    | Edit - 'Debug'    (L-31667, T-31889, R-31597, B-31874)
+   |    | ['Edit4', 'PortalEdit3']
+   |    | child_window(title="Debug", class_name="Edit")
+   |    | 
+   |    | Static - 'Debug Level:'    (L-31736, T-31890, R-31670, B-31877)
+   |    | ['Debug Level:Static', 'Debug Level:', 'Static40']
+   |    | child_window(title="Debug Level:", class_name="Static")
+   | 
+   | #32770 - ''    (L-31997, T-31965, R-31997, B-31965)
+   | ['GlobalProtect#32770', '#32770', 'GlobalProtect#327700', 'GlobalProtect#327701', '#327700', '#327701']
+   | child_window(class_name="#32770")
+   |    | 
+   |    | Static - 'Status: '    (L-31970, T-31942, R-31931, B-31929)
+   |    | ['Status: ', 'Status: Static', 'Static', 'Static0', 'Static1']
+   |    | child_window(title="Status: ", class_name="Static")
+   |    | 
+   |    | Static - 'Not Connected'    (L-31925, T-31942, R-31827, B-31924)
+   |    | ['Not Connected', 'Not ConnectedStatic', 'Static2', 'Not Connected0', 'Not Connected1', 'Not ConnectedStatic0', 'Not ConnectedStatic1']
+   |    | child_window(title="Not Connected", class_name="Static")
+   |    | 
+   |    | Button - 'Connect'    (L-31815, T-31942, R-31740, B-31922)
+   |    | ['Button', 'Connect', 'ConnectButton', 'Button0', 'Button1', 'Connect0', 'Connect1', 'ConnectButton0', 'ConnectButton1']
+   |    | child_window(title="Connect", class_name="Button")
+   |    | 
+   |    | CheckBox - 'Enable'    (L-31730, T-31939, R-31674, B-31923)
+   |    | ['CheckBox', 'EnableCheckBox', 'Enable']
+   |    | child_window(title="Enable", class_name="Button")
+   |    | 
+   |    | GroupBox - 'Warnings/Errors'    (L-31986, T-31915, R-31986, B-31915)
+   |    | ['GroupBox', 'Warnings/Errors', 'Warnings/ErrorsGroupBox', 'GroupBox0', 'GroupBox1', 'Warnings/Errors0', 'Warnings/Errors1', 'Warnings/ErrorsGroupBox0', 'Warnings/ErrorsGroupBox1']
+   |    | child_window(title="Warnings/Errors", class_name="Button")
+   |    | 
+   |    | Edit - 'OnDemand mode.'    (L-31976, T-31895, R-31976, B-31895)
+   |    | ['Edit', 'XEdit', 'Edit0', 'Edit1']
+   |    | child_window(title="OnDemand mode.", class_name="Edit")
+   |    | 
+   |    | Static - ''    (L-31976, T-32027, R-31976, B-31983)
+   |    | ['GlobalProtectStatic', 'Static3']
+   |    | child_window(class_name="Static")
+   | 
+   | Static - 'Status: '    (L-31970, T-31942, R-31931, B-31929)
+   | ['Status: ', 'Status: Static', 'Static', 'Static0', 'Static1']
+   | child_window(title="Status: ", class_name="Static")
+   | 
+   | Static - 'Not Connected'    (L-31925, T-31942, R-31827, B-31924)
+   | ['Not Connected', 'Not ConnectedStatic', 'Static2', 'Not Connected0', 'Not Connected1', 'Not ConnectedStatic0', 'Not ConnectedStatic1']
+   | child_window(title="Not Connected", class_name="Static")
+   | 
+   | Button - 'Connect'    (L-31815, T-31942, R-31740, B-31922)
+   | ['Button', 'Connect', 'ConnectButton', 'Button0', 'Button1', 'Connect0', 'Connect1', 'ConnectButton0', 'ConnectButton1']
+   | child_window(title="Connect", class_name="Button")
+   | 
+   | CheckBox - 'Enable'    (L-31730, T-31939, R-31674, B-31923)
+   | ['CheckBox', 'EnableCheckBox', 'Enable']
+   | child_window(title="Enable", class_name="Button")
+   | 
+   | GroupBox - 'Warnings/Errors'    (L-31986, T-31915, R-31986, B-31915)
+   | ['GroupBox', 'Warnings/Errors', 'Warnings/ErrorsGroupBox', 'GroupBox0', 'GroupBox1', 'Warnings/Errors0', 'Warnings/Errors1', 'Warnings/ErrorsGroupBox0', 'Warnings/ErrorsGroupBox1']
+   | child_window(title="Warnings/Errors", class_name="Button")
+   | 
+   | Edit - 'OnDemand mode.'    (L-31976, T-31895, R-31976, B-31895)
+   | ['Edit', 'XEdit', 'Edit0', 'Edit1']
+   | child_window(title="OnDemand mode.", class_name="Edit")
+   | 
+   | Static - ''    (L-31976, T-32027, R-31976, B-31983)
+   | ['GlobalProtectStatic', 'Static3']
+   | child_window(class_name="Static")
+   | 
+   | #32770 - ''    (L-31997, T-31965, R-31997, B-31965)
+   | ['GlobalProtect#327702', '#327702']
+   | child_window(class_name="#32770")
+   |    | 
+   |    | Edit - 'araujovpn.araujo.com.br'    (L-31928, T-31897, R-31712, B-31877)
+   |    | ['Edit2', 'PortalEdit', 'PortalEdit0', 'PortalEdit1']
+   |    | child_window(title="araujovpn.araujo.com.br", class_name="Edit")
+   |    | 
+   |    | Button - 'Connect'    (L-31928, T-31867, R-31845, B-31847)
+   |    | ['Button2', 'Connect2', 'ConnectButton2']
+   |    | child_window(title="Connect", class_name="Button")
+   |    | 
+   |    | Static - 'Not Connected'    (L-31934, T-31819, R-31641, B-31803)
+   |    | ['Not Connected2', 'Not ConnectedStatic2', 'Static4']
+   |    | child_window(title="Not Connected", class_name="Static")
+   |    | 
+   |    | Static - ''    (L-31976, T-31780, R-31976, B-31780)
+   |    | ['Status:Static', 'Static5', 'Status:Static0', 'Status:Static1']
+   |    | child_window(class_name="Static")
+   |    | 
+   |    | Static - ''    (L-31961, T-31941, R-31949, B-31928)
+   |    | ['XStatic', 'Static6']
+   |    | child_window(class_name="Static")
+   |    | 
+   |    | Static - 'Portal'    (L-31928, T-31916, R-31898, B-31903)
+   |    | ['PortalStatic', 'Portal', 'Static7', 'PortalStatic0', 'PortalStatic1']
+   |    | child_window(title="Portal", class_name="Static")
+   |    | 
+   |    | GroupBox - 'Warnings/Errors'    (L-31986, T-31798, R-31986, B-31798)
+   |    | ['GroupBox2', 'Warnings/Errors2', 'Warnings/ErrorsGroupBox2']
+   |    | child_window(title="Warnings/Errors", class_name="Button")
+   |    | 
+   |    | GroupBox - ''    (L-31986, T-31954, R-31986, B-31829)
+   |    | ['GlobalProtectGroupBox', 'GroupBox3']
+   |    | child_window(class_name="Button")
+   |    | 
+   |    | Static - 'Status:'    (L-31977, T-31819, R-31941, B-31806)
+   |    | ['Status:Static2', 'Status:', 'Static8', 'Status:0', 'Status:1']
+   |    | child_window(title="Status:", class_name="Static")
+   |    | 
+   |    | Static - ''    (L-31974, T-31739, R-31974, B-31739)
+   |    | ['Status:Static3', 'OnDemand mode.Static', 'Static9', 'OnDemand mode.Static0', 'OnDemand mode.Static1']
+   |    | child_window(class_name="Static")
+   |    | 
+   |    | Static - 'OnDemand mode.'    (L-31976, T-31760, R-31976, B-31760)
+   |    | ['OnDemand mode.', 'OnDemand mode.Static2', 'Static10']
+   |    | child_window(title="OnDemand mode.", class_name="Static")
+   |    | 
+   |    | Static - 'vpn_dti_dht'    (L-32349, T-31941, R-32040, B-31923)
+   |    | ['vpn_dti_dhtStatic', 'vpn_dti_dht', 'Static11']
+   |    | child_window(title="vpn_dti_dht", class_name="Static")
+   |    | 
+   |    | Button - 'X'    (L-32034, T-31944, R-32018, B-31928)
+   |    | ['X', 'Button3', 'XButton']
+   |    | child_window(title="X", class_name="Button")
+   | 
+   | Edit - 'araujovpn.araujo.com.br'    (L-31928, T-31897, R-31712, B-31877)
+   | ['Edit2', 'PortalEdit', 'PortalEdit0', 'PortalEdit1']
+   | child_window(title="araujovpn.araujo.com.br", class_name="Edit")
+   | 
+   | Button - 'Connect'    (L-31928, T-31867, R-31845, B-31847)
+   | ['Button2', 'Connect2', 'ConnectButton2']
+   | child_window(title="Connect", class_name="Button")
+   | 
+   | Static - 'Not Connected'    (L-31934, T-31819, R-31641, B-31803)
+   | ['Not Connected2', 'Not ConnectedStatic2', 'Static4']
+   | child_window(title="Not Connected", class_name="Static")
+   | 
+   | Static - ''    (L-31976, T-31780, R-31976, B-31780)
+   | ['Status:Static', 'Static5', 'Status:Static0', 'Status:Static1']
+   | child_window(class_name="Static")
+   | 
+   | Static - ''    (L-31961, T-31941, R-31949, B-31928)
+   | ['XStatic', 'Static6']
+   | child_window(class_name="Static")
+   | 
+   | Static - 'Portal'    (L-31928, T-31916, R-31898, B-31903)
+   | ['PortalStatic', 'Portal', 'Static7', 'PortalStatic0', 'PortalStatic1']
+   | child_window(title="Portal", class_name="Static")
+   | 
+   | GroupBox - 'Warnings/Errors'    (L-31986, T-31798, R-31986, B-31798)
+   | ['GroupBox2', 'Warnings/Errors2', 'Warnings/ErrorsGroupBox2']
+   | child_window(title="Warnings/Errors", class_name="Button")
+   | 
+   | GroupBox - ''    (L-31986, T-31954, R-31986, B-31829)
+   | ['GlobalProtectGroupBox', 'GroupBox3']
+   | child_window(class_name="Button")
+   | 
+   | Static - 'Status:'    (L-31977, T-31819, R-31941, B-31806)
+   | ['Status:Static2', 'Status:', 'Static8', 'Status:0', 'Status:1']
+   | child_window(title="Status:", class_name="Static")
+   | 
+   | Static - ''    (L-31974, T-31739, R-31974, B-31739)
+   | ['Status:Static3', 'OnDemand mode.Static', 'Static9', 'OnDemand mode.Static0', 'OnDemand mode.Static1']
+   | child_window(class_name="Static")
+   | 
+   | Static - 'OnDemand mode.'    (L-31976, T-31760, R-31976, B-31760)
+   | ['OnDemand mode.', 'OnDemand mode.Static2', 'Static10']
+   | child_window(title="OnDemand mode.", class_name="Static")
+   | 
+   | Static - 'vpn_dti_dht'    (L-32349, T-31941, R-32040, B-31923)
+   | ['vpn_dti_dhtStatic', 'vpn_dti_dht', 'Static11']
+   | child_window(title="vpn_dti_dht", class_name="Static")
+   | 
+   | Button - 'X'    (L-32034, T-31944, R-32018, B-31928)
+   | ['X', 'Button3', 'XButton']
+   | child_window(title="X", class_name="Button")
+   | 
+   | #32770 - ''    (L-31997, T-31965, R-31997, B-31965)
+   | ['GlobalProtect#327703', '#327703']
+   | child_window(class_name="#32770")
+   |    | 
+   |    | Static - 'Status:'    (L-31703, T-31877, R-31665, B-31864)
+   |    | ['Status:Static4', 'Status:2', 'Static12']
+   |    | child_window(title="Status:", class_name="Static")
+   |    | 
+   |    | Static - ''    (L-31662, T-31877, R-31557, B-31864)
+   |    | ['ConnectStatic', 'Static13', 'ConnectStatic0', 'ConnectStatic1']
+   |    | child_window(class_name="Static")
+   |    | 
+   |    | Static - 'Portal:'    (L-31964, T-31932, R-31892, B-31919)
+   |    | ['Portal:', 'Portal:Static', 'Static14']
+   |    | child_window(title="Portal:", class_name="Static")
+   |    | 
+   |    | Static - 'Using Cached Portal'    (L-31818, T-31932, R-31557, B-31919)
+   |    | ['Using Cached PortalStatic', 'Using Cached Portal', 'Static15']
+   |    | child_window(title="Using Cached Portal", class_name="Static")
+   |    | 
+   |    | ListView - ''    (L-31986, T-31686, R-31986, B-31686)
+   |    | ['ListView', 'XListView']
+   |    | child_window(class_name="SysListView32")
+   |    |    | 
+   |    |    | Header - ''    (L-31986, T-31686, R-31986, B-31669)
+   |    |    | ['XHeader', 'Header']
+   |    |    | child_window(class_name="SysHeader32")
+   |    | 
+   |    | Header - ''    (L-31986, T-31686, R-31986, B-31669)
+   |    | ['XHeader', 'Header']
+   |    | child_window(class_name="SysHeader32")
+   |    | 
+   |    | GroupBox - 'Connection'    (L-31986, T-31954, R-31986, B-31840)
+   |    | ['GroupBox4', 'ConnectionGroupBox', 'Connection']
+   |    | child_window(title="Connection", class_name="Button")
+   |    | 
+   |    | Static - 'Assigned Local IP:'    (L-31965, T-31916, R-31875, B-31903)
+   |    | ['Assigned Local IP:Static', 'Assigned Local IP:', 'Static16']
+   |    | child_window(title="Assigned Local IP:", class_name="Static")
+   |    | 
+   |    | Static - 'GlobalProtect Gateway IP:'    (L-31965, T-31898, R-31819, B-31885)
+   |    | ['GlobalProtect Gateway IP:Static', 'GlobalProtect Gateway IP:', 'Static17']
+   |    | child_window(title="GlobalProtect Gateway IP:", class_name="Static")
+   |    | 
+   |    | Static - 'Protocol:'    (L-31965, T-31880, R-31900, B-31867)
+   |    | ['Protocol:Static', 'Static18', 'Protocol:']
+   |    | child_window(title="Protocol:", class_name="Static")
+   |    | 
+   |    | Static - ''    (L-31818, T-31916, R-31548, B-31903)
+   |    | ['PortalStatic2', 'Static19']
+   |    | child_window(class_name="Static")
+   |    | 
+   |    | Static - ''    (L-31818, T-31898, R-31543, B-31885)
+   |    | ['PortalStatic3', 'Static20']
+   |    | child_window(class_name="Static")
+   |    | 
+   |    | Static - ''    (L-31818, T-31880, R-31734, B-31867)
+   |    | ['PortalStatic4', 'Static21']
+   |    | child_window(class_name="Static")
+   |    | 
+   |    | Static - 'Bytes In:'    (L-31964, T-31817, R-31895, B-31804)
+   |    | ['Bytes In:Static', 'Bytes In:', 'Static22']
+   |    | child_window(title="Bytes In:", class_name="Static")
+   |    | 
+   |    | Static - 'Bytes Out:'    (L-31770, T-31815, R-31696, B-31802)
+   |    | ['Bytes Out:', 'Bytes Out:Static', 'Static23']
+   |    | child_window(title="Bytes Out:", class_name="Static")
+   |    | 
+   |    | Static - 'Packet In:'    (L-31964, T-31799, R-31890, B-31786)
+   |    | ['Packet In:Static', 'Static24', 'Packet In:']
+   |    | child_window(title="Packet In:", class_name="Static")
+   |    | 
+   |    | Static - 'Packet Out:'    (L-31770, T-31798, R-31690, B-31785)
+   |    | ['Packet Out:', 'Packet Out:Static', 'Static25']
+   |    | child_window(title="Packet Out:", class_name="Static")
+   |    | 
+   |    | Static - 'Packet I/Error:'    (L-31964, T-31781, R-31880, B-31768)
+   |    | ['Packet I/Error:', 'Packet I/Error:Static', 'Static26']
+   |    | child_window(title="Packet I/Error:", class_name="Static")
+   |    | 
+   |    | Static - 'Packet O/Error:'    (L-31770, T-31780, R-31684, B-31767)
+   |    | ['Packet O/Error:Static', 'Packet O/Error:', 'Static27']
+   |    | child_window(title="Packet O/Error:", class_name="Static")
+   |    | 
+   |    | Static - ''    (L-31868, T-31815, R-31776, B-31802)
+   |    | ['ConnectStatic2', 'Static28']
+   |    | child_window(class_name="Static")
+   |    | 
+   |    | Static - ''    (L-31868, T-31798, R-31778, B-31785)
+   |    | ['Not ConnectedStatic3', 'Static29']
+   |    | child_window(class_name="Static")
+   |    | 
+   |    | Static - ''    (L-31868, T-31780, R-31775, B-31767)
+   |    | ['Not ConnectedStatic4', 'Static30']
+   |    | child_window(class_name="Static")
+   |    | 
+   |    | Static - ''    (L-31674, T-31815, R-31563, B-31802)
+   |    | ['Not ConnectedStatic5', 'Static31']
+   |    | child_window(class_name="Static")
+   |    | 
+   |    | Static - ''    (L-31674, T-31798, R-31576, B-31785)
+   |    | ['Not ConnectedStatic6', 'Static32']
+   |    | child_window(class_name="Static")
+   |    | 
+   |    | Static - ''    (L-31674, T-31780, R-31579, B-31767)
+   |    | ['Not ConnectedStatic7', 'Static33']
+   |    | child_window(class_name="Static")
+   |    | 
+   |    | GroupBox - 'Statistics'    (L-31986, T-31837, R-31986, B-31694)
+   |    | ['Statistics', 'GroupBox5', 'StatisticsGroupBox']
+   |    | child_window(title="Statistics", class_name="Button")
+   |    | 
+   |    | GroupBox - 'Messages'    (L-31986, T-31691, R-31986, B-31691)
+   |    | ['GroupBox6', 'Messages', 'MessagesGroupBox']
+   |    | child_window(title="Messages", class_name="Button")
+   |    | 
+   |    | Static - 'Uptime:'    (L-31965, T-31863, R-31926, B-31850)
+   |    | ['Uptime:', 'Static34', 'Uptime:Static']
+   |    | child_window(title="Uptime:", class_name="Static")
+   |    | 
+   |    | Static - ''    (L-31818, T-31863, R-31684, B-31850)
+   |    | ['ConnectStatic3', 'Static35']
+   |    | child_window(class_name="Static")
+   | 
+   | Static - 'Status:'    (L-31703, T-31877, R-31665, B-31864)
+   | ['Status:Static4', 'Status:2', 'Static12']
+   | child_window(title="Status:", class_name="Static")
+   | 
+   | Static - ''    (L-31662, T-31877, R-31557, B-31864)
+   | ['ConnectStatic', 'Static13', 'ConnectStatic0', 'ConnectStatic1']
+   | child_window(class_name="Static")
+   | 
+   | Static - 'Portal:'    (L-31964, T-31932, R-31892, B-31919)
+   | ['Portal:', 'Portal:Static', 'Static14']
+   | child_window(title="Portal:", class_name="Static")
+   | 
+   | Static - 'Using Cached Portal'    (L-31818, T-31932, R-31557, B-31919)
+   | ['Using Cached PortalStatic', 'Using Cached Portal', 'Static15']
+   | child_window(title="Using Cached Portal", class_name="Static")
+   | 
+   | ListView - ''    (L-31986, T-31686, R-31986, B-31686)
+   | ['ListView', 'XListView']
+   | child_window(class_name="SysListView32")
+   |    | 
+   |    | Header - ''    (L-31986, T-31686, R-31986, B-31669)
+   |    | ['XHeader', 'Header']
+   |    | child_window(class_name="SysHeader32")
+   | 
+   | Header - ''    (L-31986, T-31686, R-31986, B-31669)
+   | ['XHeader', 'Header']
+   | child_window(class_name="SysHeader32")
+   | 
+   | GroupBox - 'Connection'    (L-31986, T-31954, R-31986, B-31840)
+   | ['GroupBox4', 'ConnectionGroupBox', 'Connection']
+   | child_window(title="Connection", class_name="Button")
+   | 
+   | Static - 'Assigned Local IP:'    (L-31965, T-31916, R-31875, B-31903)
+   | ['Assigned Local IP:Static', 'Assigned Local IP:', 'Static16']
+   | child_window(title="Assigned Local IP:", class_name="Static")
+   | 
+   | Static - 'GlobalProtect Gateway IP:'    (L-31965, T-31898, R-31819, B-31885)
+   | ['GlobalProtect Gateway IP:Static', 'GlobalProtect Gateway IP:', 'Static17']
+   | child_window(title="GlobalProtect Gateway IP:", class_name="Static")
+   | 
+   | Static - 'Protocol:'    (L-31965, T-31880, R-31900, B-31867)
+   | ['Protocol:Static', 'Static18', 'Protocol:']
+   | child_window(title="Protocol:", class_name="Static")
+   | 
+   | Static - ''    (L-31818, T-31916, R-31548, B-31903)
+   | ['PortalStatic2', 'Static19']
+   | child_window(class_name="Static")
+   | 
+   | Static - ''    (L-31818, T-31898, R-31543, B-31885)
+   | ['PortalStatic3', 'Static20']
+   | child_window(class_name="Static")
+   | 
+   | Static - ''    (L-31818, T-31880, R-31734, B-31867)
+   | ['PortalStatic4', 'Static21']
+   | child_window(class_name="Static")
+   | 
+   | Static - 'Bytes In:'    (L-31964, T-31817, R-31895, B-31804)
+   | ['Bytes In:Static', 'Bytes In:', 'Static22']
+   | child_window(title="Bytes In:", class_name="Static")
+   | 
+   | Static - 'Bytes Out:'    (L-31770, T-31815, R-31696, B-31802)
+   | ['Bytes Out:', 'Bytes Out:Static', 'Static23']
+   | child_window(title="Bytes Out:", class_name="Static")
+   | 
+   | Static - 'Packet In:'    (L-31964, T-31799, R-31890, B-31786)
+   | ['Packet In:Static', 'Static24', 'Packet In:']
+   | child_window(title="Packet In:", class_name="Static")
+   | 
+   | Static - 'Packet Out:'    (L-31770, T-31798, R-31690, B-31785)
+   | ['Packet Out:', 'Packet Out:Static', 'Static25']
+   | child_window(title="Packet Out:", class_name="Static")
+   | 
+   | Static - 'Packet I/Error:'    (L-31964, T-31781, R-31880, B-31768)
+   | ['Packet I/Error:', 'Packet I/Error:Static', 'Static26']
+   | child_window(title="Packet I/Error:", class_name="Static")
+   | 
+   | Static - 'Packet O/Error:'    (L-31770, T-31780, R-31684, B-31767)
+   | ['Packet O/Error:Static', 'Packet O/Error:', 'Static27']
+   | child_window(title="Packet O/Error:", class_name="Static")
+   | 
+   | Static - ''    (L-31868, T-31815, R-31776, B-31802)
+   | ['ConnectStatic2', 'Static28']
+   | child_window(class_name="Static")
+   | 
+   | Static - ''    (L-31868, T-31798, R-31778, B-31785)
+   | ['Not ConnectedStatic3', 'Static29']
+   | child_window(class_name="Static")
+   | 
+   | Static - ''    (L-31868, T-31780, R-31775, B-31767)
+   | ['Not ConnectedStatic4', 'Static30']
+   | child_window(class_name="Static")
+   | 
+   | Static - ''    (L-31674, T-31815, R-31563, B-31802)
+   | ['Not ConnectedStatic5', 'Static31']
+   | child_window(class_name="Static")
+   | 
+   | Static - ''    (L-31674, T-31798, R-31576, B-31785)
+   | ['Not ConnectedStatic6', 'Static32']
+   | child_window(class_name="Static")
+   | 
+   | Static - ''    (L-31674, T-31780, R-31579, B-31767)
+   | ['Not ConnectedStatic7', 'Static33']
+   | child_window(class_name="Static")
+   | 
+   | GroupBox - 'Statistics'    (L-31986, T-31837, R-31986, B-31694)
+   | ['Statistics', 'GroupBox5', 'StatisticsGroupBox']
+   | child_window(title="Statistics", class_name="Button")
+   | 
+   | GroupBox - 'Messages'    (L-31986, T-31691, R-31986, B-31691)
+   | ['GroupBox6', 'Messages', 'MessagesGroupBox']
+   | child_window(title="Messages", class_name="Button")
+   | 
+   | Static - 'Uptime:'    (L-31965, T-31863, R-31926, B-31850)
+   | ['Uptime:', 'Static34', 'Uptime:Static']
+   | child_window(title="Uptime:", class_name="Static")
+   | 
+   | Static - ''    (L-31818, T-31863, R-31684, B-31850)
+   | ['ConnectStatic3', 'Static35']
+   | child_window(class_name="Static")
+   | 
+   | #32770 - ''    (L-31997, T-31965, R-31997, B-31965)
+   | ['GlobalProtect#327704', '#327704']
+   | child_window(class_name="#32770")
+   |    | 
+   |    | Afx:00007FF6F35E0000:3:0000000000010003:0000000000900010:000000000001002B - ''    (L-31986, T-31902, R-31351, B-31606)
+   |    | ['PortalAfx:00007FF6F35E0000:3:0000000000010003:0000000000900010:000000000001002B', 'Afx:00007FF6F35E0000:3:0000000000010003:0000000000900010:000000000001002B']
+   |    | child_window(class_name="Afx:00007FF6F35E0000:3:0000000000010003:0000000000900010:000000000001002B")
+   |    |    | 
+   |    |    | AfxMDIFrame120u - ''    (L-31986, T-31902, R-31351, B-31606)
+   |    |    | ['PortalAfxMDIFrame120u', 'AfxMDIFrame120u']
+   |    |    | child_window(class_name="AfxMDIFrame120u")
+   |    |    |    | 
+   |    |    |    | TreeView - ''    (L-31984, T-31900, R-31780, B-31608)
+   |    |    |    | ['TreeView', 'PortalTreeView']
+   |    |    |    | child_window(class_name="SysTreeView32")
+   |    |    |    | 
+   |    |    |    | #32770 - ''    (L-31773, T-31900, R-31353, B-31608)
+   |    |    |    | ['Connect#32770', '#327705']
+   |    |    |    | child_window(class_name="#32770")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'TODO: Place form controls on this dialog.'    (L-31762, T-31877, R-31342, B-31601)
+   |    |    |    |    | ['TODO: Place form controls on this dialog.Static', 'TODO: Place form controls on this dialog.', 'Static36']
+   |    |    |    |    | child_window(title="TODO: Place form controls on this dialog.", class_name="Static")
+   |    |    |    | 
+   |    |    |    | Static - 'TODO: Place form controls on this dialog.'    (L-31762, T-31877, R-31342, B-31601)
+   |    |    |    | ['TODO: Place form controls on this dialog.Static', 'TODO: Place form controls on this dialog.', 'Static36']
+   |    |    |    | child_window(title="TODO: Place form controls on this dialog.", class_name="Static")
+   |    |    | 
+   |    |    | TreeView - ''    (L-31984, T-31900, R-31780, B-31608)
+   |    |    | ['TreeView', 'PortalTreeView']
+   |    |    | child_window(class_name="SysTreeView32")
+   |    |    | 
+   |    |    | #32770 - ''    (L-31773, T-31900, R-31353, B-31608)
+   |    |    | ['Connect#32770', '#327705']
+   |    |    | child_window(class_name="#32770")
+   |    |    |    | 
+   |    |    |    | Static - 'TODO: Place form controls on this dialog.'    (L-31762, T-31877, R-31342, B-31601)
+   |    |    |    | ['TODO: Place form controls on this dialog.Static', 'TODO: Place form controls on this dialog.', 'Static36']
+   |    |    |    | child_window(title="TODO: Place form controls on this dialog.", class_name="Static")
+   |    |    | 
+   |    |    | Static - 'TODO: Place form controls on this dialog.'    (L-31762, T-31877, R-31342, B-31601)
+   |    |    | ['TODO: Place form controls on this dialog.Static', 'TODO: Place form controls on this dialog.', 'Static36']
+   |    |    | child_window(title="TODO: Place form controls on this dialog.", class_name="Static")
+   |    | 
+   |    | AfxMDIFrame120u - ''    (L-31986, T-31902, R-31351, B-31606)
+   |    | ['PortalAfxMDIFrame120u', 'AfxMDIFrame120u']
+   |    | child_window(class_name="AfxMDIFrame120u")
+   |    |    | 
+   |    |    | TreeView - ''    (L-31984, T-31900, R-31780, B-31608)
+   |    |    | ['TreeView', 'PortalTreeView']
+   |    |    | child_window(class_name="SysTreeView32")
+   |    |    | 
+   |    |    | #32770 - ''    (L-31773, T-31900, R-31353, B-31608)
+   |    |    | ['Connect#32770', '#327705']
+   |    |    | child_window(class_name="#32770")
+   |    |    |    | 
+   |    |    |    | Static - 'TODO: Place form controls on this dialog.'    (L-31762, T-31877, R-31342, B-31601)
+   |    |    |    | ['TODO: Place form controls on this dialog.Static', 'TODO: Place form controls on this dialog.', 'Static36']
+   |    |    |    | child_window(title="TODO: Place form controls on this dialog.", class_name="Static")
+   |    |    | 
+   |    |    | Static - 'TODO: Place form controls on this dialog.'    (L-31762, T-31877, R-31342, B-31601)
+   |    |    | ['TODO: Place form controls on this dialog.Static', 'TODO: Place form controls on this dialog.', 'Static36']
+   |    |    | child_window(title="TODO: Place form controls on this dialog.", class_name="Static")
+   |    | 
+   |    | TreeView - ''    (L-31984, T-31900, R-31780, B-31608)
+   |    | ['TreeView', 'PortalTreeView']
+   |    | child_window(class_name="SysTreeView32")
+   |    | 
+   |    | #32770 - ''    (L-31773, T-31900, R-31353, B-31608)
+   |    | ['Connect#32770', '#327705']
+   |    | child_window(class_name="#32770")
+   |    |    | 
+   |    |    | Static - 'TODO: Place form controls on this dialog.'    (L-31762, T-31877, R-31342, B-31601)
+   |    |    | ['TODO: Place form controls on this dialog.Static', 'TODO: Place form controls on this dialog.', 'Static36']
+   |    |    | child_window(title="TODO: Place form controls on this dialog.", class_name="Static")
+   |    | 
+   |    | Static - 'TODO: Place form controls on this dialog.'    (L-31762, T-31877, R-31342, B-31601)
+   |    | ['TODO: Place form controls on this dialog.Static', 'TODO: Place form controls on this dialog.', 'Static36']
+   |    | child_window(title="TODO: Place form controls on this dialog.", class_name="Static")
+   |    | 
+   |    | GroupBox - 'Settings'    (L-31986, T-31954, R-31351, B-31910)
+   |    | ['GroupBox7', 'SettingsGroupBox', 'Settings']
+   |    | child_window(title="Settings", class_name="Button")
+   |    | 
+   |    | Static - 'Hip Interval:'    (L-31970, T-31936, R-31908, B-31920)
+   |    | ['Hip Interval:', 'Hip Interval:Static', 'Static37']
+   |    | child_window(title="Hip Interval:", class_name="Static")
+   |    | 
+   |    | Static - '3600'    (L-31907, T-31936, R-31851, B-31923)
+   |    | ['3600Static', '3600', 'Static38']
+   |    | child_window(title="3600", class_name="Static")
+   |    | 
+   |    | Button - 'Resubmit Host Info'    (L-31839, T-31939, R-31708, B-31919)
+   |    | ['Button4', 'Resubmit Host Info', 'Resubmit Host InfoButton']
+   |    | child_window(title="Resubmit Host Info", class_name="Button")
+   | 
+   | Afx:00007FF6F35E0000:3:0000000000010003:0000000000900010:000000000001002B - ''    (L-31986, T-31902, R-31351, B-31606)
+   | ['PortalAfx:00007FF6F35E0000:3:0000000000010003:0000000000900010:000000000001002B', 'Afx:00007FF6F35E0000:3:0000000000010003:0000000000900010:000000000001002B']
+   | child_window(class_name="Afx:00007FF6F35E0000:3:0000000000010003:0000000000900010:000000000001002B")
+   |    | 
+   |    | AfxMDIFrame120u - ''    (L-31986, T-31902, R-31351, B-31606)
+   |    | ['PortalAfxMDIFrame120u', 'AfxMDIFrame120u']
+   |    | child_window(class_name="AfxMDIFrame120u")
+   |    |    | 
+   |    |    | TreeView - ''    (L-31984, T-31900, R-31780, B-31608)
+   |    |    | ['TreeView', 'PortalTreeView']
+   |    |    | child_window(class_name="SysTreeView32")
+   |    |    | 
+   |    |    | #32770 - ''    (L-31773, T-31900, R-31353, B-31608)
+   |    |    | ['Connect#32770', '#327705']
+   |    |    | child_window(class_name="#32770")
+   |    |    |    | 
+   |    |    |    | Static - 'TODO: Place form controls on this dialog.'    (L-31762, T-31877, R-31342, B-31601)
+   |    |    |    | ['TODO: Place form controls on this dialog.Static', 'TODO: Place form controls on this dialog.', 'Static36']
+   |    |    |    | child_window(title="TODO: Place form controls on this dialog.", class_name="Static")
+   |    |    | 
+   |    |    | Static - 'TODO: Place form controls on this dialog.'    (L-31762, T-31877, R-31342, B-31601)
+   |    |    | ['TODO: Place form controls on this dialog.Static', 'TODO: Place form controls on this dialog.', 'Static36']
+   |    |    | child_window(title="TODO: Place form controls on this dialog.", class_name="Static")
+   |    | 
+   |    | TreeView - ''    (L-31984, T-31900, R-31780, B-31608)
+   |    | ['TreeView', 'PortalTreeView']
+   |    | child_window(class_name="SysTreeView32")
+   |    | 
+   |    | #32770 - ''    (L-31773, T-31900, R-31353, B-31608)
+   |    | ['Connect#32770', '#327705']
+   |    | child_window(class_name="#32770")
+   |    |    | 
+   |    |    | Static - 'TODO: Place form controls on this dialog.'    (L-31762, T-31877, R-31342, B-31601)
+   |    |    | ['TODO: Place form controls on this dialog.Static', 'TODO: Place form controls on this dialog.', 'Static36']
+   |    |    | child_window(title="TODO: Place form controls on this dialog.", class_name="Static")
+   |    | 
+   |    | Static - 'TODO: Place form controls on this dialog.'    (L-31762, T-31877, R-31342, B-31601)
+   |    | ['TODO: Place form controls on this dialog.Static', 'TODO: Place form controls on this dialog.', 'Static36']
+   |    | child_window(title="TODO: Place form controls on this dialog.", class_name="Static")
+   | 
+   | AfxMDIFrame120u - ''    (L-31986, T-31902, R-31351, B-31606)
+   | ['PortalAfxMDIFrame120u', 'AfxMDIFrame120u']
+   | child_window(class_name="AfxMDIFrame120u")
+   |    | 
+   |    | TreeView - ''    (L-31984, T-31900, R-31780, B-31608)
+   |    | ['TreeView', 'PortalTreeView']
+   |    | child_window(class_name="SysTreeView32")
+   |    | 
+   |    | #32770 - ''    (L-31773, T-31900, R-31353, B-31608)
+   |    | ['Connect#32770', '#327705']
+   |    | child_window(class_name="#32770")
+   |    |    | 
+   |    |    | Static - 'TODO: Place form controls on this dialog.'    (L-31762, T-31877, R-31342, B-31601)
+   |    |    | ['TODO: Place form controls on this dialog.Static', 'TODO: Place form controls on this dialog.', 'Static36']
+   |    |    | child_window(title="TODO: Place form controls on this dialog.", class_name="Static")
+   |    | 
+   |    | Static - 'TODO: Place form controls on this dialog.'    (L-31762, T-31877, R-31342, B-31601)
+   |    | ['TODO: Place form controls on this dialog.Static', 'TODO: Place form controls on this dialog.', 'Static36']
+   |    | child_window(title="TODO: Place form controls on this dialog.", class_name="Static")
+   | 
+   | TreeView - ''    (L-31984, T-31900, R-31780, B-31608)
+   | ['TreeView', 'PortalTreeView']
+   | child_window(class_name="SysTreeView32")
+   | 
+   | #32770 - ''    (L-31773, T-31900, R-31353, B-31608)
+   | ['Connect#32770', '#327705']
+   | child_window(class_name="#32770")
+   |    | 
+   |    | Static - 'TODO: Place form controls on this dialog.'    (L-31762, T-31877, R-31342, B-31601)
+   |    | ['TODO: Place form controls on this dialog.Static', 'TODO: Place form controls on this dialog.', 'Static36']
+   |    | child_window(title="TODO: Place form controls on this dialog.", class_name="Static")
+   | 
+   | Static - 'TODO: Place form controls on this dialog.'    (L-31762, T-31877, R-31342, B-31601)
+   | ['TODO: Place form controls on this dialog.Static', 'TODO: Place form controls on this dialog.', 'Static36']
+   | child_window(title="TODO: Place form controls on this dialog.", class_name="Static")
+   | 
+   | GroupBox - 'Settings'    (L-31986, T-31954, R-31351, B-31910)
+   | ['GroupBox7', 'SettingsGroupBox', 'Settings']
+   | child_window(title="Settings", class_name="Button")
+   | 
+   | Static - 'Hip Interval:'    (L-31970, T-31936, R-31908, B-31920)
+   | ['Hip Interval:', 'Hip Interval:Static', 'Static37']
+   | child_window(title="Hip Interval:", class_name="Static")
+   | 
+   | Static - '3600'    (L-31907, T-31936, R-31851, B-31923)
+   | ['3600Static', '3600', 'Static38']
+   | child_window(title="3600", class_name="Static")
+   | 
+   | Button - 'Resubmit Host Info'    (L-31839, T-31939, R-31708, B-31919)
+   | ['Button4', 'Resubmit Host Info', 'Resubmit Host InfoButton']
+   | child_window(title="Resubmit Host Info", class_name="Button")
+   | 
+   | #32770 - ''    (L-31997, T-31965, R-31997, B-31965)
+   | ['GlobalProtect#327705', '#327706']
+   | child_window(class_name="#32770")
+   |    | 
+   |    | GroupBox - 'Type'    (L-31986, T-31954, R-31986, B-31910)
+   |    | ['TypeGroupBox', 'GroupBox8', 'Type']
+   |    | child_window(title="Type", class_name="Button")
+   |    | 
+   |    | RadioButton - 'Software'    (L-31526, T-31936, R-31506, B-31920)
+   |    | ['SoftwareRadioButton', 'RadioButton', 'Software', 'RadioButton0', 'RadioButton1']
+   |    | child_window(title="Software", class_name="Button")
+   |    | 
+   |    | RadioButton - 'Network Configurations'    (L-31983, T-31936, R-31842, B-31920)
+   |    | ['Network Configurations', 'RadioButton2', 'Network ConfigurationsRadioButton']
+   |    | child_window(title="Network Configurations", class_name="Button")
+   |    | 
+   |    | RadioButton - 'Routing Table'    (L-31836, T-31936, R-31743, B-31920)
+   |    | ['RadioButton3', 'Routing TableRadioButton', 'Routing Table']
+   |    | child_window(title="Routing Table", class_name="Button")
+   |    | 
+   |    | ListBox - ''    (L-31986, T-31902, R-31986, B-31902)
+   |    | ['XListBox', 'ListBox', 'XListBox0', 'XListBox1', 'ListBox0', 'ListBox1']
+   |    | child_window(class_name="ListBox")
+   |    | 
+   |    | RadioButton - 'Sockets'    (L-31727, T-31936, R-31664, B-31920)
+   |    | ['SocketsRadioButton', 'RadioButton4', 'Sockets']
+   |    | child_window(title="Sockets", class_name="Button")
+   |    | 
+   |    | RadioButton - 'Logs'    (L-31658, T-31936, R-31610, B-31920)
+   |    | ['RadioButton5', 'Logs', 'LogsRadioButton']
+   |    | child_window(title="Logs", class_name="Button")
+   |    | 
+   |    | Button - 'Rediscover Network'    (L-31608, T-31939, R-31492, B-31919)
+   |    | ['Button5', 'Rediscover Network', 'Rediscover NetworkButton']
+   |    | child_window(title="Rediscover Network", class_name="Button")
+   |    | 
+   |    | #32770 - ''    (L-31986, T-31907, R-31986, B-31907)
+   |    | ['#327707', 'X#32770']
+   |    | child_window(class_name="#32770")
+   |    |    | 
+   |    |    | GroupBox - ''    (L-31986, T-31907, R-31986, B-31863)
+   |    |    | ['GroupBox9', 'XGroupBox']
+   |    |    | child_window(class_name="Button")
+   |    |    | 
+   |    |    | ListBox - ''    (L-31986, T-31855, R-31986, B-31855)
+   |    |    | ['XListBox2', 'ListBox2']
+   |    |    | child_window(class_name="ListBox")
+   |    |    | 
+   |    |    | ComboBox - 'PanGP Service'    (L-31947, T-31892, R-31848, B-31871)
+   |    |    | ['PortalComboBox', 'ComboBox', 'PortalComboBox0', 'PortalComboBox1', 'ComboBox0', 'ComboBox1']
+   |    |    | child_window(title="PanGP Service", class_name="ComboBox")
+   |    |    |    | 
+   |    |    |    | Edit - 'PanGP Service'    (L-31944, T-31889, R-31868, B-31874)
+   |    |    |    | ['Edit3', 'PortalEdit2']
+   |    |    |    | child_window(title="PanGP Service", class_name="Edit")
+   |    |    | 
+   |    |    | Edit - 'PanGP Service'    (L-31944, T-31889, R-31868, B-31874)
+   |    |    | ['Edit3', 'PortalEdit2']
+   |    |    | child_window(title="PanGP Service", class_name="Edit")
+   |    |    | 
+   |    |    | Button - 'Start'    (L-31847, T-31892, R-31797, B-31871)
+   |    |    | ['Button6', 'Start', 'StartButton']
+   |    |    | child_window(title="Start", class_name="Button")
+   |    |    | 
+   |    |    | Button - 'Stop'    (L-31793, T-31892, R-31746, B-31871)
+   |    |    | ['Button7', 'StopButton', 'Stop']
+   |    |    | child_window(title="Stop", class_name="Button")
+   |    |    | 
+   |    |    | Static - 'Log:'    (L-31974, T-31892, R-31951, B-31879)
+   |    |    | ['Log:Static', 'Static39', 'Log:']
+   |    |    | child_window(title="Log:", class_name="Static")
+   |    |    | 
+   |    |    | ComboBox - 'Debug'    (L-31670, T-31892, R-31577, B-31871)
+   |    |    | ['PortalComboBox2', 'ComboBox2']
+   |    |    | child_window(title="Debug", class_name="ComboBox")
+   |    |    |    | 
+   |    |    |    | Edit - 'Debug'    (L-31667, T-31889, R-31597, B-31874)
+   |    |    |    | ['Edit4', 'PortalEdit3']
+   |    |    |    | child_window(title="Debug", class_name="Edit")
+   |    |    | 
+   |    |    | Edit - 'Debug'    (L-31667, T-31889, R-31597, B-31874)
+   |    |    | ['Edit4', 'PortalEdit3']
+   |    |    | child_window(title="Debug", class_name="Edit")
+   |    |    | 
+   |    |    | Static - 'Debug Level:'    (L-31736, T-31890, R-31670, B-31877)
+   |    |    | ['Debug Level:Static', 'Debug Level:', 'Static40']
+   |    |    | child_window(title="Debug Level:", class_name="Static")
+   |    | 
+   |    | GroupBox - ''    (L-31986, T-31907, R-31986, B-31863)
+   |    | ['GroupBox9', 'XGroupBox']
+   |    | child_window(class_name="Button")
+   |    | 
+   |    | ListBox - ''    (L-31986, T-31855, R-31986, B-31855)
+   |    | ['XListBox2', 'ListBox2']
+   |    | child_window(class_name="ListBox")
+   |    | 
+   |    | ComboBox - 'PanGP Service'    (L-31947, T-31892, R-31848, B-31871)
+   |    | ['PortalComboBox', 'ComboBox', 'PortalComboBox0', 'PortalComboBox1', 'ComboBox0', 'ComboBox1']
+   |    | child_window(title="PanGP Service", class_name="ComboBox")
+   |    |    | 
+   |    |    | Edit - 'PanGP Service'    (L-31944, T-31889, R-31868, B-31874)
+   |    |    | ['Edit3', 'PortalEdit2']
+   |    |    | child_window(title="PanGP Service", class_name="Edit")
+   |    | 
+   |    | Edit - 'PanGP Service'    (L-31944, T-31889, R-31868, B-31874)
+   |    | ['Edit3', 'PortalEdit2']
+   |    | child_window(title="PanGP Service", class_name="Edit")
+   |    | 
+   |    | Button - 'Start'    (L-31847, T-31892, R-31797, B-31871)
+   |    | ['Button6', 'Start', 'StartButton']
+   |    | child_window(title="Start", class_name="Button")
+   |    | 
+   |    | Button - 'Stop'    (L-31793, T-31892, R-31746, B-31871)
+   |    | ['Button7', 'StopButton', 'Stop']
+   |    | child_window(title="Stop", class_name="Button")
+   |    | 
+   |    | Static - 'Log:'    (L-31974, T-31892, R-31951, B-31879)
+   |    | ['Log:Static', 'Static39', 'Log:']
+   |    | child_window(title="Log:", class_name="Static")
+   |    | 
+   |    | ComboBox - 'Debug'    (L-31670, T-31892, R-31577, B-31871)
+   |    | ['PortalComboBox2', 'ComboBox2']
+   |    | child_window(title="Debug", class_name="ComboBox")
+   |    |    | 
+   |    |    | Edit - 'Debug'    (L-31667, T-31889, R-31597, B-31874)
+   |    |    | ['Edit4', 'PortalEdit3']
+   |    |    | child_window(title="Debug", class_name="Edit")
+   |    | 
+   |    | Edit - 'Debug'    (L-31667, T-31889, R-31597, B-31874)
+   |    | ['Edit4', 'PortalEdit3']
+   |    | child_window(title="Debug", class_name="Edit")
+   |    | 
+   |    | Static - 'Debug Level:'    (L-31736, T-31890, R-31670, B-31877)
+   |    | ['Debug Level:Static', 'Debug Level:', 'Static40']
+   |    | child_window(title="Debug Level:", class_name="Static")
+   | 
+   | GroupBox - 'Type'    (L-31986, T-31954, R-31986, B-31910)
+   | ['TypeGroupBox', 'GroupBox8', 'Type']
+   | child_window(title="Type", class_name="Button")
+   | 
+   | RadioButton - 'Software'    (L-31526, T-31936, R-31506, B-31920)
+   | ['SoftwareRadioButton', 'RadioButton', 'Software', 'RadioButton0', 'RadioButton1']
+   | child_window(title="Software", class_name="Button")
+   | 
+   | RadioButton - 'Network Configurations'    (L-31983, T-31936, R-31842, B-31920)
+   | ['Network Configurations', 'RadioButton2', 'Network ConfigurationsRadioButton']
+   | child_window(title="Network Configurations", class_name="Button")
+   | 
+   | RadioButton - 'Routing Table'    (L-31836, T-31936, R-31743, B-31920)
+   | ['RadioButton3', 'Routing TableRadioButton', 'Routing Table']
+   | child_window(title="Routing Table", class_name="Button")
+   | 
+   | ListBox - ''    (L-31986, T-31902, R-31986, B-31902)
+   | ['XListBox', 'ListBox', 'XListBox0', 'XListBox1', 'ListBox0', 'ListBox1']
+   | child_window(class_name="ListBox")
+   | 
+   | RadioButton - 'Sockets'    (L-31727, T-31936, R-31664, B-31920)
+   | ['SocketsRadioButton', 'RadioButton4', 'Sockets']
+   | child_window(title="Sockets", class_name="Button")
+   | 
+   | RadioButton - 'Logs'    (L-31658, T-31936, R-31610, B-31920)
+   | ['RadioButton5', 'Logs', 'LogsRadioButton']
+   | child_window(title="Logs", class_name="Button")
+   | 
+   | Button - 'Rediscover Network'    (L-31608, T-31939, R-31492, B-31919)
+   | ['Button5', 'Rediscover Network', 'Rediscover NetworkButton']
+   | child_window(title="Rediscover Network", class_name="Button")
+   | 
+   | #32770 - ''    (L-31986, T-31907, R-31986, B-31907)
+   | ['#327707', 'X#32770']
+   | child_window(class_name="#32770")
+   |    | 
+   |    | GroupBox - ''    (L-31986, T-31907, R-31986, B-31863)
+   |    | ['GroupBox9', 'XGroupBox']
+   |    | child_window(class_name="Button")
+   |    | 
+   |    | ListBox - ''    (L-31986, T-31855, R-31986, B-31855)
+   |    | ['XListBox2', 'ListBox2']
+   |    | child_window(class_name="ListBox")
+   |    | 
+   |    | ComboBox - 'PanGP Service'    (L-31947, T-31892, R-31848, B-31871)
+   |    | ['PortalComboBox', 'ComboBox', 'PortalComboBox0', 'PortalComboBox1', 'ComboBox0', 'ComboBox1']
+   |    | child_window(title="PanGP Service", class_name="ComboBox")
+   |    |    | 
+   |    |    | Edit - 'PanGP Service'    (L-31944, T-31889, R-31868, B-31874)
+   |    |    | ['Edit3', 'PortalEdit2']
+   |    |    | child_window(title="PanGP Service", class_name="Edit")
+   |    | 
+   |    | Edit - 'PanGP Service'    (L-31944, T-31889, R-31868, B-31874)
+   |    | ['Edit3', 'PortalEdit2']
+   |    | child_window(title="PanGP Service", class_name="Edit")
+   |    | 
+   |    | Button - 'Start'    (L-31847, T-31892, R-31797, B-31871)
+   |    | ['Button6', 'Start', 'StartButton']
+   |    | child_window(title="Start", class_name="Button")
+   |    | 
+   |    | Button - 'Stop'    (L-31793, T-31892, R-31746, B-31871)
+   |    | ['Button7', 'StopButton', 'Stop']
+   |    | child_window(title="Stop", class_name="Button")
+   |    | 
+   |    | Static - 'Log:'    (L-31974, T-31892, R-31951, B-31879)
+   |    | ['Log:Static', 'Static39', 'Log:']
+   |    | child_window(title="Log:", class_name="Static")
+   |    | 
+   |    | ComboBox - 'Debug'    (L-31670, T-31892, R-31577, B-31871)
+   |    | ['PortalComboBox2', 'ComboBox2']
+   |    | child_window(title="Debug", class_name="ComboBox")
+   |    |    | 
+   |    |    | Edit - 'Debug'    (L-31667, T-31889, R-31597, B-31874)
+   |    |    | ['Edit4', 'PortalEdit3']
+   |    |    | child_window(title="Debug", class_name="Edit")
+   |    | 
+   |    | Edit - 'Debug'    (L-31667, T-31889, R-31597, B-31874)
+   |    | ['Edit4', 'PortalEdit3']
+   |    | child_window(title="Debug", class_name="Edit")
+   |    | 
+   |    | Static - 'Debug Level:'    (L-31736, T-31890, R-31670, B-31877)
+   |    | ['Debug Level:Static', 'Debug Level:', 'Static40']
+   |    | child_window(title="Debug Level:", class_name="Static")
+   | 
+   | GroupBox - ''    (L-31986, T-31907, R-31986, B-31863)
+   | ['GroupBox9', 'XGroupBox']
+   | child_window(class_name="Button")
+   | 
+   | ListBox - ''    (L-31986, T-31855, R-31986, B-31855)
+   | ['XListBox2', 'ListBox2']
+   | child_window(class_name="ListBox")
+   | 
+   | ComboBox - 'PanGP Service'    (L-31947, T-31892, R-31848, B-31871)
+   | ['PortalComboBox', 'ComboBox', 'PortalComboBox0', 'PortalComboBox1', 'ComboBox0', 'ComboBox1']
+   | child_window(title="PanGP Service", class_name="ComboBox")
+   |    | 
+   |    | Edit - 'PanGP Service'    (L-31944, T-31889, R-31868, B-31874)
+   |    | ['Edit3', 'PortalEdit2']
+   |    | child_window(title="PanGP Service", class_name="Edit")
+   | 
+   | Edit - 'PanGP Service'    (L-31944, T-31889, R-31868, B-31874)
+   | ['Edit3', 'PortalEdit2']
+   | child_window(title="PanGP Service", class_name="Edit")
+   | 
+   | Button - 'Start'    (L-31847, T-31892, R-31797, B-31871)
+   | ['Button6', 'Start', 'StartButton']
+   | child_window(title="Start", class_name="Button")
+   | 
+   | Button - 'Stop'    (L-31793, T-31892, R-31746, B-31871)
+   | ['Button7', 'StopButton', 'Stop']
+   | child_window(title="Stop", class_name="Button")
+   | 
+   | Static - 'Log:'    (L-31974, T-31892, R-31951, B-31879)
+   | ['Log:Static', 'Static39', 'Log:']
+   | child_window(title="Log:", class_name="Static")
+   | 
+   | ComboBox - 'Debug'    (L-31670, T-31892, R-31577, B-31871)
+   | ['PortalComboBox2', 'ComboBox2']
+   | child_window(title="Debug", class_name="ComboBox")
+   |    | 
+   |    | Edit - 'Debug'    (L-31667, T-31889, R-31597, B-31874)
+   |    | ['Edit4', 'PortalEdit3']
+   |    | child_window(title="Debug", class_name="Edit")
+   | 
+   | Edit - 'Debug'    (L-31667, T-31889, R-31597, B-31874)
+   | ['Edit4', 'PortalEdit3']
+   | child_window(title="Debug", class_name="Edit")
+   | 
+   | Static - 'Debug Level:'    (L-31736, T-31890, R-31670, B-31877)
+   | ['Debug Level:Static', 'Debug Level:', 'Static40']
+   | child_window(title="Debug Level:", class_name="Static")
+   | 
+   | Button - 'Help'    (L-31586, T-31995, R-31538, B-31977)
+   | ['HelpButton', 'Button8', 'Help']
+   | child_window(title="Help", class_name="Button")
+   | 
+   | Button - 'Report'    (L-31640, T-31995, R-31589, B-31977)
+   | ['Button9', 'Report', 'ReportButton']
+   | child_window(title="Report", class_name="Button")
