@@ -1,10 +1,18 @@
 from pywinauto.application import Application
-import os
+import time
 
 app = Application().connect(path=r"C:\Program Files\Palo Alto Networks\GlobalProtect\PanGPA.exe")
-hostname = "172.16.220.201"	
 while True:
-    response = os.system("ping " + hostname)
-    if response != 0:
-        app.GlobalProtect.Connect.click()
-        print ('Connecting!')
+    time.sleep(1)
+    if app.GlobalProtect.Button.Texts()[0] == 'Connect':
+        print ('VPN is down!')
+        app.GlobalProtect.Button.click()
+        print ('Connecting...')
+        while app.GlobalProtect.Button.Texts()[0] != 'Disconnect':
+            time.sleep(10)
+            if app.GlobalProtect.Button.Texts()[0] == 'Disconnect':
+                print ('Connected!')
+                break
+            else:
+                print ('Trying again...')
+                app.GlobalProtect.Button.click()
